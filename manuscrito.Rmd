@@ -8,11 +8,11 @@ output:
     template: svm-latex-ms.tex
     number_sections: true
 title: | 
-        | Título
+        | Piperaceae
         | Subtítulo
         | Subtítulo
 author:
-- name: Nombre de el/la estudiante
+- name: Merali Rosario
   affiliation: Afiliación, normalmente algo tal que "Estudiante, Universidad Autónoma de Santo Domingo (UASD)"
 abstract: "Resumen del manuscrito"
 keywords: "palabra clave 1, palabra clave 2"
@@ -39,7 +39,7 @@ header-includes:
 
 # Introducción
 
-\ldots
+La familia Piperaceae...
 
 # Metodología
 
