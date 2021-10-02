@@ -37,9 +37,26 @@ header-includes:
     }
 ---
 
+```{r, include=FALSE}
+source("Analisis.R", local = knitr::knit_global())
+```
+
 # Introducción
 
-La familia Sapotaceae...
+La familia Sapotaceae...[@martinez2020importancia].
+
+Segun @martinez2020importancia, las hojas de la familia sapotaceae son del tipo...(ver figura\ref{imagen})
+
+La familia Sapotaceae...[@martinez2020importancia;@henriquez2012fenologia].
+
+![hojas, flores y fruto de la familia Sapotaceae\label{imagen}](Sapotaceae.jpg){width=50%}
+
+| p1  | p2  | p3  |p4   | p5  |
+|---|---|---|---|---|
+|  10 | 16  | 62  | 33  |  34 |
+|  20 |  15 | 22  | 32  | 32  |
+|  30 |  38 | 23  | 12  | 46  |
+
 
 # Metodología
 
@@ -47,7 +64,20 @@ La familia Sapotaceae...
 
 # Resultados
 
-\ldots
+En toda la parcela, se registró un total de 2029 pertenecientes a 5 especies. La riqueza por cuadro fue de 4 especies y la mediana de la abundancia por cuadro fue de 39 individuos. La especie más abundante fue *Pouteria reticulata*, con 1084 individuos, y la menos abundante fue *Pouteria fossicola* con 3 individuos. La tabla \ref{tab:abun_sp} y la figura \ref{fig:abun_sp_q} resume estos resultados.
+
+```{r, echo=FALSE}
+knitr::kable(abun_sp,
+             caption = "\\label{tab:abun_sp}Abundancia por especie de la familia Sapotaceae")
+```
+
+```{r, echo=FALSE, fig.cap="\\label{fig:abun_sp_q}Abundancia por especie por quadrat"}
+abun_sp_q
+```
+
+```{r, echo=FALSE, fig.cap="\\label{fig:map}Mapa de quadrats", dpi = 125}
+m
+```
 
 # Discusión
 
