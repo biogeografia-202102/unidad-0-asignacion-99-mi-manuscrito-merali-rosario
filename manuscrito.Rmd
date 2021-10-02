@@ -8,7 +8,7 @@ output:
     template: svm-latex-ms.tex
     number_sections: true
 title: | 
-        | Piperaceae
+        | Sapotaceae
         | Subtítulo
         | Subtítulo
 author:
@@ -39,7 +39,7 @@ header-includes:
 
 # Introducción
 
-La familia Piperaceae...
+La familia Sapotaceae...
 
 # Metodología
 
