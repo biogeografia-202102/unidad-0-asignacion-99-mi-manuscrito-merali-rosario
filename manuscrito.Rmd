@@ -39,7 +39,20 @@ header-includes:
 
 # Introducción
 
-La familia Sapotaceae...
+La familia Sapotaceae...[@martinez2020importancia].
+
+Segun @martinez2020importancia, las hojas de la familia sapotaceae son del tipo...(ver figura\ref{imagen})
+
+La familia Sapotaceae...[@martinez2020importancia;@henriquez2012fenologia].
+
+![hojas, flores y fruto de la familia Sapotaceae\label{imagen}](Sapotaceae.jpg){width=50%}
+
+| p1  | p2  | p3  |p4   | p5  |
+|---|---|---|---|---|
+|  10 | 16  | 62  | 33  |  34 |
+|  20 |  15 | 22  | 32  | 32  |
+|  30 |  38 | 23  | 12  | 46  |
+
 
 # Metodología
 
