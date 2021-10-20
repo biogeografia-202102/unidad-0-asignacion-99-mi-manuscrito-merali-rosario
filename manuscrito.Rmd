@@ -91,10 +91,11 @@ la distribucion de la riqueza numerica de especies de la familia Sapotaceae sigu
 
 ![Distribucion de la riqueza de la familia Sapotaceae\label{fig:mapa_cuadros_riq_mi_familia}](mapa_cuadros_riq_mi_familia.png){width=50%}
 
+Las variables ambientales pH y pendiente media presentaron asociacion con la familia de plantas..., lo cual supone... (ver figuras \ref{fig:mapa_cuadros_pH} y \ref{fig:mapa_cuadros_pendiente}).
 
+![Distribucion del pH\label{fig:mapa_cuadros_pH}](mapa_cuadros_ph.png){width=50%}
 
-
-
+![Distribucion de las pendientes(en grados)\label{fig:mapa_cuadros_pendiente}](mapa_cuadros_pendiente.png){width=50%}
 
 # Discusión
 
