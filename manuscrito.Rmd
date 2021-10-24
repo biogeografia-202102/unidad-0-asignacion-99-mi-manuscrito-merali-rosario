@@ -40,6 +40,8 @@ header-includes:
 ```{r, include=FALSE}
 source("Analisis.R", local = knitr::knit_global())
 source("analisis_tidyverse.R", local = knitr::knit_global())
+source("analisis_correlacion_variables_ambientales.R", local = knitr::knit_global())
+
 ```
 
 # Introducción
@@ -96,6 +98,15 @@ Las variables ambientales pH y pendiente media presentaron asociacion con la fam
 ![Distribucion del pH\label{fig:mapa_cuadros_pH}](mapa_cuadros_ph.png){width=50%}
 
 ![Distribucion de las pendientes(en grados)\label{fig:mapa_cuadros_pendiente}](mapa_cuadros_pendiente.png){width=50%}
+
+la abundancia de la familia sapotaceae solo presenta correlacion con la abundacia global, mientras que la riqueza tiene correlacion con la presencia de cobre y nitrogeno en el suelo, lo que sugiere... (ver figura \ref{fig:p_cor_suelo_ar}).
+
+
+```{r, echo=FALSE, fig.cap="\\label{fig:p_cor_suelo_ar}correlacion de las variables del suelo"}
+p_cor_suelo_ar
+```
+
+
 
 # Discusión
 
