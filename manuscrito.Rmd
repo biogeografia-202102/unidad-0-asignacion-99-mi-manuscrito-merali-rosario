@@ -107,6 +107,12 @@ p_cor_suelo_ar
 ```
 
 
+las variables ambientales numericas y nominales presentan un patron... (ver figuras \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales})
+
+![variables ambientales numericas\label{fig:mapas_variables_ambientales_numericas}](mapas_variables_ambientales_numericas_tmap.png)
+
+![variables ambientales nominales\label{fig:mapas_variables_ambientales_nominales}](mapas_variables_ambientales_nominales_tmap.png)
+
 
 # Discusión
 
