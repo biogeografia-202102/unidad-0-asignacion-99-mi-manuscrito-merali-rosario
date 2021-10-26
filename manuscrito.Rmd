@@ -8,8 +8,8 @@ output:
     template: svm-latex-ms.tex
     number_sections: true
 title: | 
-        | Sapotaceae
-        | Subtítulo
+        | Asociacion y composicion floristica de la familia Sapotaceae en la parcela permanente de 50h, Isla Barro Colorado
+        |Subtítulo
         | Subtítulo
 author:
 - name: Merali Rosario
@@ -118,8 +118,10 @@ El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten un 100%
 
 ![Similaridad de Jaccard(color fucsia (magenta, rosa) significa "corta distancia=muy similares", y cian (celeste) significa "gran distancia=poco similares")\label{fig:similaridad_jaccard}](medicion_asociacion_jaccard.png)
 
+La correlcion entre las variables geomorfologicas con la abundancia y riqueza...(ver figura \ref{fig:matriz_correlacion_geomorf_abun_riq_spearman}). 
 
 
+![Panel de correlacion de Spearman entre los datos de la comunidad y las variables geomorfologicas\label{fig:matriz_correlacion_geomorf_abun_riq_spearman}](medicion_asociacion_jaccard.png)
 
 
 # Discusión
