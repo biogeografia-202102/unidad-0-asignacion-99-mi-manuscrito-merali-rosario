@@ -113,6 +113,14 @@ las variables ambientales numericas y nominales presentan un patron... (ver figu
 
 ![variables ambientales nominales\label{fig:mapas_variables_ambientales_nominales}](mapas_variables_ambientales_nominales_tmap.png)
 
+El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten un 100% de sus especies, por lo que ambos sitios comparten 3 especies y no tienen especies exclusivas (ver figura \ref{fig:similaridad_jaccard}).
+
+
+![Similaridad de Jaccard(color fucsia (magenta, rosa) significa "corta distancia=muy similares", y cian (celeste) significa "gran distancia=poco similares")\label{fig:similaridad_jaccard}](medicion_asociacion_jaccard.png)
+
+
+
+
 
 # Discusión
 
