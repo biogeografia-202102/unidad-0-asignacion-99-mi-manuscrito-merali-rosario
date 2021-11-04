@@ -1,4 +1,4 @@
-#' ---
+#' --
 #' title: "Análisis de agrupamiento (cluster analysis). <br> Parte 4: Especies indicadoras, especies con preferencia por hábitats"
 #' author: "JR"
 #' date: "15 de noviembre, 2020"
