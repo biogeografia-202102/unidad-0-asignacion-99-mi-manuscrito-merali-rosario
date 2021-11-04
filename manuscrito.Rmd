@@ -123,6 +123,14 @@ La correlcion entre las variables geomorfologicas con la abundancia y riqueza...
 
 ![Panel de correlacion de Spearman entre los datos de la comunidad y las variables geomorfologicas\label{fig:matriz_correlacion_geomorf_abun_riq_spearman}](medicion_asociacion_jaccard.png)
 
+Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma...(ver figura \ref{fig:grupos_upgma}). 
+
+
+![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](grupos_upgma.png)
+
+La repartición de sitios en los grupos formulados por enlace upgm...(ver figura \ref{fig:mapa_upgma_k2}). 
+
+![Mapa en el que se presenta la distribucion de sitios en los grupos formulados por enlace upgma\label{fig:mapa_upgma_k2}](mapa_upgma_k2.png)
 
 # Discusión
 
