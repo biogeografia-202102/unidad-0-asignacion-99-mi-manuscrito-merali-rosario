@@ -123,10 +123,11 @@ La correlcion entre las variables geomorfologicas con la abundancia y riqueza...
 
 ![Panel de correlacion de Spearman entre los datos de la comunidad y las variables geomorfologicas\label{fig:matriz_correlacion_geomorf_abun_riq_spearman}](medicion_asociacion_jaccard.png)
 
-Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma...(ver figura \ref{fig:grupos_upgma}). 
+Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma...(ver figura \ref{fig:{width=100%}}). 
 
 
-![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](grupos_upgma.png)
+![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](actualizacion_grupos_upgma.png){width=100%}
+
 
 La repartición de sitios en los grupos formulados por enlace upgm...(ver figura \ref{fig:mapa_upgma_k2}). 
 
@@ -135,17 +136,34 @@ La repartición de sitios en los grupos formulados por enlace upgm...(ver figura
 
 Las especies indicadoras fueron...(verificar analisis de agrupamiento 4)
 
+> #' ## Análisis de especies indicadoras mediante IndVal
+ Association function: IndVal.g
+ Significance level (alpha): 0.05
+
+ Total number of species: 5
+ Selected number of species: 2 
+ Number of species associated to 1 group: 2 
+
+ List of species associated to each combination: 
+
+ Group 1  #sps.  1 
+                             A      B stat p.value   
+Chrysophyllum argenteum 0.6565 1.0000 0.81   0.005 **
+
+ Group 2  #sps.  1 
+                         A      B  stat p.value    
+Pouteria reticulata 0.6505 1.0000 0.807   0.001 ***
 
 grado de correlacion que existe en cado uno de los indices... (ver figura \ref{fig:correlacion_indices}). 
 
 
 
-![Grado de correlacion entre cado uno de los indices. N0: riqueza de especies; H: entropia de Shannon; Hb2: entropia de Shannon con 2 como base del logaritmo; N1 y N2: Numeros de Hill; N1b2: Numero de Hill 1 en base log 2; J: equidad de Pielou; E10 y E20: ratios de Hill 1 y 2 \label{fig:correlacion_indices}](correlacion_indices.png)
+![Grado de correlacion entre cado uno de los indices. N0: riqueza de especies; H: entropia de Shannon; Hb2: entropia de Shannon con 2 como base del logaritmo; N1 y N2: Numeros de Hill; N1b2: Numero de Hill 1 en base log 2; J: equidad de Pielou; E10 y E20: ratios de Hill 1 y 2 \label{fig:correlacion_indices}](correlacion_indices.png){width=100%}
 
 La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre, tambien aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). 
 
 
-![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad.png)
+![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad.png){width=100%}
 
 Sitios que tienen mayores valores de equidad (azul y verde)... (ver figura \ref{fig:grafico_niveles_equidad}). 
 
@@ -171,6 +189,22 @@ Simpson diversity    2.403     2.404    0.038     2.403     2.478
   
   
   ![Grafico de acumulacion de especies en funcion de numeros de individuos \label{fig:acumulacion_especies_individuos}](acumulacion_especies_individuos.png)
+
+
+Valores de diversidad beta por cada una de las especies y cuales son su contribucion (comparar cueles son las especies que contribuyen mas a la diveridad beta)
+especies_contribuyen_betadiv
+Chrysophyllum argenteum   Chrysophyllum cainito      Pouteria stipitata 
+              0.2504234               0.3147978               0.2658814 
+
+$sitios_contribuyen_betadiv
+[1] "9"  "40"
+
+Estos sitios presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (habitat, y variables numericas...)(ver figura \ref{fig:Sitios_variables_ambientales} y \ref{fig: mapas_variables_ambientales_nominales}).
+  
+  
+  
+![Mapa de los citios segun las variables ambientales numericas \label{fig:Sitios_variables_ambientales}](Sitios_variables_ambientales.png){width=100%}
+
 
 # Discusión
 
