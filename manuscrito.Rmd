@@ -132,6 +132,46 @@ La repartición de sitios en los grupos formulados por enlace upgm...(ver figura
 
 ![Mapa en el que se presenta la distribucion de sitios en los grupos formulados por enlace upgma\label{fig:mapa_upgma_k2}](mapa_upgma_k2.png)
 
+
+Las especies indicadoras fueron...(verificar analisis de agrupamiento 4)
+
+
+grado de correlacion que existe en cado uno de los indices... (ver figura \ref{fig:correlacion_indices}). 
+
+
+
+![Grado de correlacion entre cado uno de los indices. N0: riqueza de especies; H: entropia de Shannon; Hb2: entropia de Shannon con 2 como base del logaritmo; N1 y N2: Numeros de Hill; N1b2: Numero de Hill 1 en base log 2; J: equidad de Pielou; E10 y E20: ratios de Hill 1 y 2 \label{fig:correlacion_indices}](correlacion_indices.png)
+
+La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre, tambien aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). 
+
+
+![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad.png)
+
+Sitios que tienen mayores valores de equidad (azul y verde)... (ver figura \ref{fig:grafico_niveles_equidad}). 
+
+
+
+![Grafico dque presenta los valores de equidad por sitos \label{fig:grafico_niveles_equidad}](grafico_niveles_equidad.png)
+
+Curva de rarefaccion de los sitios, teniendo en cuenta la riqueza y la abundancia...(ver figura \ref{fig:Curva_rarefaccion}). analizar Analisis de diversidad 1
+
+![Curva de rarefaccion de los sitios \label{fig:Curva_rarefaccion}](Curva_rarefaccion.png)
+
+$AsyEst: asymptotic diversity estimates along with related statistics.
+                  Observed Estimator Est_s.e. 95% Lower 95% Upper
+Species Richness     5.000     5.000    0.217     5.000     5.481
+Shannon diversity    2.786     2.789    0.045     2.786     2.876
+Simpson diversity    2.403     2.404    0.038     2.403     2.478
+
+
+
+
+  Acumulacion de especies en funcion de numeros de individuos...(ver figura \ref{fig:acumulacion_especies_individuos}).
+  
+  
+  
+  ![Grafico de acumulacion de especies en funcion de numeros de individuos \label{fig:acumulacion_especies_individuos}](acumulacion_especies_individuos.png)
+
 # Discusión
 
 # Agradecimientos
