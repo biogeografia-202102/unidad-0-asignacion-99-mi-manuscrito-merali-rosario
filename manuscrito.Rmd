@@ -166,7 +166,7 @@ grado de correlacion que existe en cado uno de los indices... (ver figura \ref{f
 La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre, tambien aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). 
 
 
-![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad.png){width=100%}
+![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad.png){width=50%}
 
 Sitios que tienen mayores valores de equidad (azul y verde)... (ver figura \ref{fig:grafico_niveles_equidad}). 
 
@@ -203,11 +203,47 @@ $sitios_contribuyen_betadiv
 [1] "9"  "40"
 
 Estos sitios presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (habitat, y variables numericas...)(ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig: mapas_variables_ambientales_nominales}).
+
+Componentes príncipales de la varianza en las variables de suelo y geomorfología en
+BCI.En estos gráficos se incluye el comportamiento de la varianza explicada, predecido por el
+modelo de bara quebrada, representado por la línea roja formando la curva. (La escala denominada “Inertia” representa la suma de los cuadrados de toda la varianza) (ver figura \ref{fig:env_suelo_pca}).
   
   
+  
+  ![grafico de los componentes principales de la varianza en las variables suelo y geomorfologia en BCI \label{fig:env_suelo_pca}](env_suelo_pca.png)
+  
+  
+Se observa que las variables nitrógeno, fósforo y pH aportan la mayor parte de la varianza explicada. La relación entre las variables se encuentra debidamente representada en el recuadro del escalamiento 2, por medio delos ángulos que forman sus vectores (ver figura \ref{fig:Biplot_PCA_escalamiento}).
+  
+  
+  
+  ![Biplots generados en el PCA de las viariables de suelo \label{fig:Biplot_PCA_escalamiento}](Biplot_PCA_escalamiento.png){width=100%}
+
+El escalamiento 1, muestra muchos de los cuadrantes dispuestos alrededor del origen formado por los ejes, lo que indica una contribución a la varianza relativamente
+equitativa por parte de las especies. Sin embargo, aparecen también unos cuantos cuadrantes con valores atípicos y más alejados. Se nota como las especies (mencionar especies) presentan una contribución desproporcionada a la varianza total, en comparación
+con el resto de las especies (ver figura \ref{fig:PCA_comunidad}).
+  
+  
+  
+  ![Biplots generados en el PCA de las viariables de suelo \label{fig:PCA_comunidad}](PCA_comunidad.png){width=100%}
 
 
 
+Biplot del análisis de correspondencia de los datos de abundancia de las especies de
+Sapotaceae (ver figura \ref{fig:Analisis_de_correspondencia}).
+  
+  
+  
+  ![Biplot del analisis de correspondencia de los datos de abundancia de las especies de Sapotaceae \label{fig:Analisis_de_correspondencia}](Analisis_de_correspondencia.png){width=100%}
+
+
+(ver figura \ref{fig:PCoA _promedios_especies}).
+  
+  
+  
+  ![PCoA con promedios ponderados de especies \label{fig:PCoA _promedios_especies}](PCoA _promedios_especies.png){width=100%}
+  
+  
 # Discusión
 
 # Agradecimientos
