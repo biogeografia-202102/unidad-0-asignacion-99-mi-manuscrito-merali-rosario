@@ -243,6 +243,11 @@ Sapotaceae (ver figura \ref{fig:Analisis_de_correspondencia}).
   
   ![PCoA con promedios ponderados de especies \label{fig:PCoA _promedios_especies}](PCoA _promedios_especies.png){width=100%}
   
+(ver figura \ref{fig:Abundancia_matriz}).
+  
+  
+  
+  ![Abundancia de especies (matriz de comuniddad transformada) \label{fig:PCoA _promedios_especies}](Abundancia_matriz.png){width=100%}
   
 # Discusión
 
