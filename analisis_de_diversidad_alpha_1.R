@@ -149,7 +149,7 @@ indices_env <- bind_cols(
     select(-id) %>% 
     select(-matches('^geom.*pct$')))
 indices_env %>% tibble
-ezCorM(indices_env, r_size_lims = c(3,5), label_size = 4)
+ezCorM(indices_env, r_size_lims = c(2,4), label_size = 2)
 #' 
 #' **Modelos de abundancia de especies**
 #' 

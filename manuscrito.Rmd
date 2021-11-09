@@ -9,8 +9,7 @@ output:
     number_sections: true
 title: | 
         | Asociacion y composicion floristica de la familia Sapotaceae en la parcela permanente de 50h, Isla Barro Colorado
-        |Subtítulo
-        | Subtítulo
+        
 author:
 - name: Merali Rosario
   affiliation: Afiliación, normalmente algo tal que "Estudiante, Universidad Autónoma de Santo Domingo (UASD)"
@@ -47,24 +46,45 @@ source("analisis_correlacion_variables_ambientales.R", local = knitr::knit_globa
 
 # Introducción
 
-La familia Sapotaceae...[@martinez2020importancia].
+La diversidad y estructura de los bosques miden los recursos y la abundancia en un área geográfica, por ejemplo, los bosques de la familia Sapotaceae son importantes para proporcionar alimento a las especies de vida silvestre [@martinez2021diversidad]. La familia Sapotaceae está ampliamente distribuida en las 
+zonas tropicales [@smedmark2007boreotropical]. Produce madera de alta calidad y frutas tropicales, y algunas especies producen látex, siendo una familia de plantas de importancia ecológica y económica [@martinez2020importancia].
+
+La  Isla  Barro  Colorado  es  una  reserva  natural  ubicada  en  el lago  Gatún  del  Canal  de Panamá. Debido a su capacidad de investigación, es una de las regiones tropicales más conocidas en materia de biología y ecología tropical [@leigh1990barro].La isla exhibe características importantes, tres de las cuales son la estabilidad ambiental, su ubicación geográfica (en un área de importancia internacional) y la capacidad para investigar grupos específicos de organismos [@rodriguez2020scolytinae]. Sin  embargo, no se han hecho estudios completos de la familia Sapotaceae, donde se estudie los diferentes analisis de ecologia numerica. 
+
+Este trabajo pretende determinar la asociacion y composicion floristica de la familia Sapotaceae en la parcela permanente de 50h de la isla Barro Colorado. 
+
+
+Objetivos:
+
+*Determinar la riqueza, abundancia y distribucion de la familia Sapotaceae en la parcela permanente de 50h.
+
+*Analizar la organizacion de las especies de la familia Sapotaceae en los cuadros de 1 hectárea e identificar si existe algun patron con alguna variable ambiental. 
+
+*Explicar si hay especies indicadoras o con preferencia por determinadas condiciones ambientales. 
+
+*Evaluar si la familia sapotaceae esta suficientemente representada segun los análisis de estimación de riqueza.
+
+*Determinar cuales son las variables ambientales que presentan asociacion con la diversidad alpha. 
+
+*Mostrar cuales son las especies que contribuyen a la diversidad beta. 
+
+*Examinar en un espacio bidimensional las tendencias de ordenacion de las especies y explicar si se asocian con variables ambientales. 
+
+*Identificar si las especies de la familia Sapotaceae presentan patron aglomerado y determinar si existe asociacion con alguna variable ambiental. 
+
+
+
 
 Segun @martinez2020importancia, las hojas de la familia sapotaceae son del tipo...(ver figura\ref{imagen})
 
 La familia Sapotaceae...[@martinez2020importancia;@henriquez2012fenologia].
 
-![hojas, flores y fruto de la familia Sapotaceae\label{imagen}](Sapotaceae.jpg){width=50%}
 
-| p1  | p2  | p3  |p4   | p5  |
-|---|---|---|---|---|
-|  10 | 16  | 62  | 33  |  34 |
-|  20 |  15 | 22  | 32  | 32  |
-|  30 |  38 | 23  | 12  | 46  |
 
 
 # Metodología
 
-\ldots
+	La Isla de Barro Colorado sostiene un bosque semicaducifolio, sobre suelos arcillosos derivados de basalto y de rocas sedimentarias [@windsorestructura]. La parcela permanente de árboles de 50 hectáreas de la isla Barro Colorado se estableció en 1980 en el bosque húmedo tropical ubicado en el lago Gatún en el centro de Panamá [@perez2005metodologia].
 
 # Resultados
 
@@ -126,10 +146,10 @@ La correlcion entre las variables geomorfologicas con la abundancia y riqueza...
 
 ![Panel de correlacion de Spearman entre los datos de la comunidad y las variables geomorfologicas\label{fig:matriz_correlacion_geomorf_abun_riq_spearman}](medicion_asociacion_jaccard.png)
 
-Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma...(ver figura \ref{fig:{width=100%}}). 
+Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma...(ver figura \ref{fig:grupos_upgma}). 
 
 
-![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](actualizacion_grupos_upgma.png){width=100%}
+![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](actualizacion2_grupos_upgma.png){width=100%}
 
 
 La repartición de sitios en los grupos formulados por enlace upgm...(ver figura \ref{fig:mapa_upgma_k2}). 
@@ -161,12 +181,12 @@ grado de correlacion que existe en cado uno de los indices... (ver figura \ref{f
 
 
 
-![Grado de correlacion entre cado uno de los indices. N0: riqueza de especies; H: entropia de Shannon; Hb2: entropia de Shannon con 2 como base del logaritmo; N1 y N2: Numeros de Hill; N1b2: Numero de Hill 1 en base log 2; J: equidad de Pielou; E10 y E20: ratios de Hill 1 y 2 \label{fig:correlacion_indices}](correlacion_indices.png){width=100%}
+![Grado de correlacion entre cado uno de los indices. N0: riqueza de especies; H: entropia de Shannon; Hb2: entropia de Shannon con 2 como base del logaritmo; N1 y N2: Numeros de Hill; N1b2: Numero de Hill 1 en base log 2; J: equidad de Pielou; E10 y E20: ratios de Hill 1 y 2 \label{fig:correlacion_indices}](correlacion_pearson.png){width=100%}
 
 La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre, tambien aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). 
 
 
-![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad.png){width=50%}
+![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad_actualizado.png){width=100%}
 
 Sitios que tienen mayores valores de equidad (azul y verde)... (ver figura \ref{fig:grafico_niveles_equidad}). 
 
@@ -202,7 +222,7 @@ Chrysophyllum argenteum   Chrysophyllum cainito      Pouteria stipitata
 $sitios_contribuyen_betadiv
 [1] "9"  "40"
 
-Estos sitios presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (habitat, y variables numericas...)(ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig: mapas_variables_ambientales_nominales}).
+Estos sitios presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (habitat, y variables numericas...)(ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales}).
 
 Componentes príncipales de la varianza en las variables de suelo y geomorfología en
 BCI.En estos gráficos se incluye el comportamiento de la varianza explicada, predecido por el
@@ -217,7 +237,7 @@ Se observa que las variables nitrógeno, fósforo y pH aportan la mayor parte de
   
   
   
-  ![Biplots generados en el PCA de las viariables de suelo \label{fig:Biplot_PCA_escalamiento}](Biplot_PCA_escalamiento.png){width=100%}
+  ![Biplots generados en el PCA de las viariables de suelo \label{fig:Biplot_PCA_escalamiento}](Biplot_PCA_escalamiento_actualizado.png){width=100%}
 
 El escalamiento 1, muestra muchos de los cuadrantes dispuestos alrededor del origen formado por los ejes, lo que indica una contribución a la varianza relativamente
 equitativa por parte de las especies. Sin embargo, aparecen también unos cuantos cuadrantes con valores atípicos y más alejados. Se nota como las especies (mencionar especies) presentan una contribución desproporcionada a la varianza total, en comparación
@@ -225,7 +245,7 @@ con el resto de las especies (ver figura \ref{fig:PCA_comunidad}).
   
   
   
-  ![Biplots generados en el PCA de las viariables de suelo \label{fig:PCA_comunidad}](PCA_comunidad.png){width=100%}
+  ![Biplots generados en el PCA de las viariables de suelo \label{fig:PCA_comunidad}](PCA_comunidad_actualizado.png){width=100%}
 
 
 
@@ -234,20 +254,20 @@ Sapotaceae (ver figura \ref{fig:Analisis_de_correspondencia}).
   
   
   
-  ![Biplot del analisis de correspondencia de los datos de abundancia de las especies de Sapotaceae \label{fig:Analisis_de_correspondencia}](Analisis_de_correspondencia.png){width=100%}
+  ![Biplot del analisis de correspondencia de los datos de abundancia de las especies de Sapotaceae \label{fig:Analisis_de_correspondencia}](analisis_de_correspondencia_actualizado.png){width=100%}
 
 
 (ver figura \ref{fig:PCoA _promedios_especies}).
   
   
   
-  ![PCoA con promedios ponderados de especies \label{fig:PCoA _promedios_especies}](PCoA _promedios_especies.png){width=100%}
+  ![PCoA con promedios ponderados de especies \label{fig:PCoA _promedios_especies}](Promedios_ponderados.png){width=100%}
   
-(ver figura \ref{fig:Abundancia_matriz}).
+(ver figura \ref{fig:PCoA _promedios_especies}).
   
   
   
-  ![Abundancia de especies (matriz de comuniddad transformada) \label{fig:PCoA _promedios_especies}](Abundancia_matriz.png){width=100%}
+  ![Abundancia de especies (matriz de comuniddad transformada) \label{fig:PCoA _promedios_especies}](especies_ecologia_espacial.png){width=100%}
   
 # Discusión
 
