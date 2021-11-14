@@ -186,8 +186,8 @@ La diversidad y estructura de los bosques miden los recursos y la
 abundancia en un área geográfica, por ejemplo, los bosques de la familia
 Sapotaceae son importantes para proporcionar alimento a las especies de
 vida silvestre (Martínez-Sovero et al., 2021). La familia Sapotaceae
-está ampliamente distribuida en las zonas tropicales (Smedmark, n.d.).
-Produce madera de alta calidad y frutas tropicales, y algunas especies
+está ampliamente distribuida en la zonas tropicales (Smedmark, n.d.).
+Produce madera de alta calidad, frutas tropicales y algunas especies
 producen látex, siendo una familia de plantas de importancia ecológica y
 económica (Martínez-Sovero, Iglesias-Osores, \& Villena-Velásquez,
 2020).
@@ -203,48 +203,106 @@ específicos de organismos (Rodríguez-Flores \& Barrios, 2020). Sin
 embargo, no se han hecho estudios completos de la familia Sapotaceae,
 donde se estudie los diferentes analisis de ecologia numerica.
 
-Este trabajo pretende determinar la asociacion y composicion floristica
-de la familia Sapotaceae en la parcela permanente de 50h de la isla
-Barro Colorado.
-
-Objetivos:
-
-*Determinar la riqueza, abundancia y distribucion de la familia
-Sapotaceae en la parcela permanente de 50h.
-
-*Analizar la organizacion de las especies de la familia Sapotaceae en
-los cuadros de 1 hectárea e identificar si existe algun patron con
-alguna variable ambiental.
-
-*Explicar si hay especies indicadoras o con preferencia por determinadas
-condiciones ambientales.
-
-*Evaluar si la familia sapotaceae esta suficientemente representada
-segun los análisis de estimación de riqueza.
-
-*Determinar cuales son las variables ambientales que presentan
-asociacion con la diversidad alpha.
-
-*Mostrar cuales son las especies que contribuyen a la diversidad beta.
-
-*Examinar en un espacio bidimensional las tendencias de ordenacion de
-las especies y explicar si se asocian con variables ambientales.
-
-*Identificar si las especies de la familia Sapotaceae presentan patron
-aglomerado y determinar si existe asociacion con alguna variable
-ambiental.
-
-Segun Martínez-Sovero et al. (2020), las hojas de la familia sapotaceae
-son del tipo\ldots{}(ver figura\ref{imagen})
-
-La familia Sapotaceae\ldots{}(Henríquez, Sotes, \& Bustamante, 2012;
-Martínez-Sovero et al., 2020).
+El objetivo de este trabajo es determinar la asociacion, composicion
+floristica y distribucion de la familia Sapotaceae en la parcela
+permanente de 50h de la isla Barro Colorado. Ademas, analizar la
+organizacion de las especies en los cuadros de 1 hectárea e identificar
+si existe algun patron con alguna variable ambiental, asi como tambien,
+explicar si hay especies indicadoras o con preferencia por determinadas
+condiciones ambientales. Por otra parte, evaluar si la familia
+sapotaceae esta suficientemente representada segun los análisis de
+estimación de riqueza, determinar cuales son las variables ambientales
+que presentan asociacion con la diversidad alpha y mostrar cuales son
+las especies que contribuyen a la diversidad beta. Por ultimo, pero no
+menos importante, examinar en un espacio bidimensional las tendencias de
+ordenacion de las especies y determinar si las especies presentan patron
+aglomerado.
 
 \section{Metodología}\label{metodologuxeda}
 
-\begin{verbatim}
-La Isla de Barro Colorado sostiene un bosque semicaducifolio, sobre suelos arcillosos derivados de basalto y de rocas sedimentarias [@windsorestructura]. La parcela permanente de árboles de 50 hectáreas de la isla Barro Colorado se estableció en 1980 en el bosque húmedo tropical ubicado en el lago Gatún en el centro de Panamá [@perez2005metodologia].
-\end{verbatim}
+\subsection{Area de Estudio}\label{area-de-estudio}
+
+La isla de Barro Colorado es una colina de 1,500 hectáreas ubicada a 137
+msnm en el lago Gatún. La parte superior de la isla es ancha y plana, y
+se asienta sobre un lecho de roca de basalto, de la cual irradian
+colinas empinadas y valles tallados en rocas sedimentarias que contienen
+gran cantidad de restos volcánicos. El suelo es arcilloso y la
+profundidad varía de 50 cm a un metro. El clima es típico de las areas
+tropicales (Pérez et al., 2005; Windsor et al., n.d.). Su vegetación
+está formada por bosques semideciduos de tierras bajas, y se han
+registrado más de 1,300 especies de plantas vasculares (\emph{Flora de
+la isla barro colorado}, n.d.).
+
+La parcela permanente de árboles de 50 hectáreas se estableció en 1980
+en el bosque húmedo tropical. El sitio es un rectángulo de 1,000 m de
+largo por 500 m de ancho, ubicado en la meseta central de la isla. Está
+dividido en 1,250 cuadrantes de 20x20 m, en el cual se han contabilizado
+todos los arboles con más de 10 mm de diámetro a la altura del pecho
+cada cinco años desde 1985 (R. A. y H. Condit Richard y Chisholm, n.d.;
+R. y L. Condit Richard y P ~'e rez, n.d.; Pérez et al., 2005) (ver
+figura \ref{fig:mapabarro}).
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{mapa Barro Colorado.png}
+\caption{Mapa topográfico de la parcela de cincuenta hectáreas
+\label{fig:mapabarro}}
+\end{figure}
+
+\subsection{Maeriales y Metodos}\label{maeriales-y-metodos}
+
+Los datos de cada uno de los cuadrantes de una hectárea que componen
+BCI, fueron procesados en R (R Core Team, 2020), teniendo en cuenta la
+matriz ambiental y la matriz de comunidad, lo cuales contienen datos de
+las variables ambientales, tales como condiciones edaficas, tipo de
+habitat, topografia del lugar, clasificacion etaria del bosque, y datos
+demograficos y geoferenciacion espacial de todos los individuos
+censados. Se adaptaron scripts reproducibles recuperados de Batlle
+(2020), utilizando la colección de paquetes multifuncionales vegan
+(Oksanen et al., 2019), Tidyverse (Wickham, 2017), BiodiversityR (R.
+Kindt \& Coe, 2005) y indicspecies (De Caceres \& Legendre, 2009).
+
+Para conocer las características de los datos almacenados de la matriz
+de comunidad y ambiental, se realizó un análisis exploratorio que
+incluyó visualización de gráficos, tablas, mapas de los cuadrantes de
+una hectárea y tablas de correlación lineal entre las dos variables de
+la matriz, lo que permitió una vista común y ayudó a determinar
+procedimientos más detallados a continuación.
+
+\subsection{Medición de asociación
+(ma)}\label{mediciuxf3n-de-asociaciuxf3n-ma}
+
+Para realizar las pruebas de medicion de asociacion, se calculó la
+distancia euclidiana entre los cuadrados considerados objetos. Para
+ello, se requierió una transformación de la matriz de comunidad mediante
+el método Hellinger, que incluye elevar al cuadrado la abundancia
+relativa yij (cociente resultante de cada valor de abundancia entre la
+suma de los sitios), como muestra la formula \ref{fig:formula}. Donde j
+denota cada tipo o columna de la matriz, i es la fila o cuadrante e i+
+representa la suma de filas de la matriz de la i-ésima fila (Legendre \&
+Gallagher, 2001). Además, se evaluó la distancia euclidiana entre los
+cuadrantes en términos de ocurrencia de especies. Se utilizó el índice
+de disimilitud de Jaccard de la matriz normalizada para convertir el
+valor de abundancia en un valor binario (Brocard, Gillet, \& Legendre,
+2018). del mismo modo, se empleó la métrica de Jaccard para aplicar la
+transposición de la matriz de la comunidad y convertir a datos Presencia
+/ ausencia para medir el grado de asociación entre especies.
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{Formula2.png}
+\caption{Formula. Transformación de la matriz de comunidad mediante el
+método Hellinger \label{fig:formula}}
+\end{figure}
+
+Para poder comparar la relación entre especies en función de su
+abundancia, se utilizó estandarización ji-cuadrado de la matriz de
+comunidad transpuesta (Legendre \& Gallagher, 2001). Se examinó la
+ocurrencia entre especies y su distribución en BCI por el coeficiente de
+orrelación entre rangos de Spearman para medir el grado de correlación
+entre las variables riqueza númerica de especies y la abundancia con las
+variables ambientales geomorfológicas, y la composición química del
+suelo(Brocard et al., 2018).
 
 \section{Resultados}\label{resultados}
 
@@ -571,14 +629,48 @@ reproducible}{Script reproducible}}\label{script-reproducible}
 \addcontentsline{toc}{section}{Referencias}
 
 \hypertarget{refs}{}
-\hypertarget{ref-henriquez2012fenologia}{}
-Henríquez, C. A., Sotes, G. J., \& Bustamante, R. O. (2012). Fenología
-reproductiva de pouteria splendens (sapotaceae). \emph{Gayana.
-Botánica}, \emph{69}(2), 251--255.
+\hypertarget{ref-jose_ramon_martinez_batlle_2020_4402362}{}
+Batlle, J. R. M. (2020). biogeografia-master/scripts-de-analisis-BCI:
+Long coding sessions (Version v0.0.0.9000).
+\url{https://doi.org/10.5281/zenodo.4402362}
+
+\hypertarget{ref-brocard2011numerical}{}
+Brocard, D., Gillet, F., \& Legendre, P. (2018). Numerical ecology with
+r (use r!). \emph{Springer-Verlag New York. Doi}, \emph{10}, 52--66.
+
+\hypertarget{ref-condit2012thirty}{}
+Condit, R. A. y H., Richard y Chisholm. (n.d.). Treinta años de censo
+forestal en barro colorado y la importancia de la inmigración para
+mantener la diversidad. \emph{PloS One}.
+
+\hypertarget{ref-condit2017demographic}{}
+Condit, R. y L., Richard y P ~'e rez. (n.d.). Tendencias demográficas y
+clima durante 35 años en la parcela de 50 ha de barro colorado.
+\emph{Forest Ecosystems}.
+
+\hypertarget{ref-indicspecies}{}
+De Caceres, M., \& Legendre, P. (2009). Associations between species and
+groups of sites: Indices and statistical inference. In \emph{Ecology}.
+Retrieved from \url{http://sites.google.com/site/miqueldecaceres/}
+
+\hypertarget{ref-croat1978flora}{}
+\emph{Flora de la isla barro colorado}. (n.d.). Stanford University
+Press.
 
 \hypertarget{ref-leigh1990barro}{}
 Isla barro colorado y biología tropical. (n.d.). \emph{Cuatro Bosques
 Neotropicales}.
+
+\hypertarget{ref-diversityanalysis}{}
+Kindt, R., \& Coe, R. (2005). \emph{Tree diversity analysis. a manual
+and software for common statistical methods for ecological and
+biodiversity studies}. Retrieved from
+\url{http://www.worldagroforestry.org/output/tree-diversity-analysis}
+
+\hypertarget{ref-legendre2001ecologically}{}
+Legendre, P., \& Gallagher, E. D. (2001). Ecologically meaningful
+transformations for ordination of species data. \emph{Oecologia},
+\emph{129}(2), 271--280.
 
 \hypertarget{ref-martinez2020importancia}{}
 Martínez-Sovero, G., Iglesias-Osores, S., \& Villena-Velásquez, J. J.
@@ -591,6 +683,22 @@ Seminario-Cunya, A., Alva-Mendoza, D., \& Villena-Velásquez, J. (2021).
 Diversidad y estructura de sapotaceae en bosques amazónicos de madre de
 dios, perú. \emph{Ciencia Amazónica (Iquitos)}, \emph{9}(1), 59--72.
 
+\hypertarget{ref-vegan}{}
+Oksanen, J., Blanchet, F. G., Friendly, M., Kindt, R., Legendre, P.,
+McGlinn, D., \ldots{} Wagner, H. (2019). \emph{Vegan: Community ecology
+package}. Retrieved from \url{https://CRAN.R-project.org/package=vegan}
+
+\hypertarget{ref-perez2005metodologia}{}
+Pérez, R., Aguilar, S., Condit, R., Foster, R., Hubbell, S., \& Lao, S.
+(2005). Metodologia empleada en los censos de la parcela de 50 hectareas
+de la isla de barro colorado, panamá. \emph{Centro de Ciencias
+Forestales Del Tropico (CTFS) Y Instituto Smithsonian de Investigaciones
+Tropicales (STRI)}, 1--24.
+
+\hypertarget{ref-Restudio}{}
+R Core Team. (2020). \emph{R: A language and environment for statistical
+computing}. Retrieved from \url{https://www.R-project.org/}
+
 \hypertarget{ref-rodriguez2020scolytinae}{}
 Rodríguez-Flores, W., \& Barrios, H. (2020). Scolytinae y platypodinae
 (coleoptera: Curculionidae) de la isla barro colorado, panamá.
@@ -601,6 +709,17 @@ Smedmark, A. A., Jenny EE y Anderberg. (n.d.). La migración
 boreotropical explica la hibridación entre linajes geográficamente
 distantes en el clado pantropical sideroxyleae (sapotaceae).
 \emph{American Journal of Botany}.
+
+\hypertarget{ref-tidyverse}{}
+Wickham, H. (2017). \emph{Tidyverse: Easily install and load the
+'tidyverse'}. Retrieved from
+\url{https://CRAN.R-project.org/package=tidyverse}
+
+\hypertarget{ref-windsorestructura}{}
+Windsor, D., FOSTER, R., BROKAW, N., Leigh, E., Rand, A., \& others.
+(n.d.). \emph{Estructura e historia de la vegetación de la isla barro
+coloradoecología de un bosque tropical: Ciclos estacionales y cambios a
+largo plazo}.
 
 
 

@@ -46,45 +46,55 @@ source("analisis_correlacion_variables_ambientales.R", local = knitr::knit_globa
 
 # Introducción
 
-La diversidad y estructura de los bosques miden los recursos y la abundancia en un área geográfica, por ejemplo, los bosques de la familia Sapotaceae son importantes para proporcionar alimento a las especies de vida silvestre [@martinez2021diversidad]. La familia Sapotaceae está ampliamente distribuida en las 
-zonas tropicales [@smedmark2007boreotropical]. Produce madera de alta calidad y frutas tropicales, y algunas especies producen látex, siendo una familia de plantas de importancia ecológica y económica [@martinez2020importancia].
+La diversidad y estructura de los bosques miden los recursos y la abundancia en un área geográfica, por ejemplo, los bosques de la familia Sapotaceae son importantes para proporcionar alimento a las especies de vida silvestre [@martinez2021diversidad]. La familia Sapotaceae está ampliamente distribuida en la zonas tropicales [@smedmark2007boreotropical]. Produce madera de alta calidad, frutas tropicales y algunas especies producen látex, siendo una familia de plantas de importancia ecológica y económica [@martinez2020importancia].
 
 La  Isla  Barro  Colorado  es  una  reserva  natural  ubicada  en  el lago  Gatún  del  Canal  de Panamá. Debido a su capacidad de investigación, es una de las regiones tropicales más conocidas en materia de biología y ecología tropical [@leigh1990barro].La isla exhibe características importantes, tres de las cuales son la estabilidad ambiental, su ubicación geográfica (en un área de importancia internacional) y la capacidad para investigar grupos específicos de organismos [@rodriguez2020scolytinae]. Sin  embargo, no se han hecho estudios completos de la familia Sapotaceae, donde se estudie los diferentes analisis de ecologia numerica. 
 
-Este trabajo pretende determinar la asociacion y composicion floristica de la familia Sapotaceae en la parcela permanente de 50h de la isla Barro Colorado. 
-
-
-Objetivos:
-
-*Determinar la riqueza, abundancia y distribucion de la familia Sapotaceae en la parcela permanente de 50h.
-
-*Analizar la organizacion de las especies de la familia Sapotaceae en los cuadros de 1 hectárea e identificar si existe algun patron con alguna variable ambiental. 
-
-*Explicar si hay especies indicadoras o con preferencia por determinadas condiciones ambientales. 
-
-*Evaluar si la familia sapotaceae esta suficientemente representada segun los análisis de estimación de riqueza.
-
-*Determinar cuales son las variables ambientales que presentan asociacion con la diversidad alpha. 
-
-*Mostrar cuales son las especies que contribuyen a la diversidad beta. 
-
-*Examinar en un espacio bidimensional las tendencias de ordenacion de las especies y explicar si se asocian con variables ambientales. 
-
-*Identificar si las especies de la familia Sapotaceae presentan patron aglomerado y determinar si existe asociacion con alguna variable ambiental. 
-
-
-
-
-Segun @martinez2020importancia, las hojas de la familia sapotaceae son del tipo...(ver figura\ref{imagen})
-
-La familia Sapotaceae...[@martinez2020importancia;@henriquez2012fenologia].
-
-
+El objetivo de este trabajo es determinar la asociacion, composicion floristica y distribucion de la familia Sapotaceae en la parcela permanente de 50h de la isla Barro Colorado. Ademas, analizar la organizacion de las especies en los cuadros de 1 hectárea e identificar si existe algun patron con alguna variable ambiental, asi como tambien, explicar si hay especies indicadoras o con preferencia por determinadas condiciones ambientales. Por otra parte, evaluar si la familia sapotaceae esta suficientemente representada segun los análisis de estimación de riqueza, determinar cuales son las variables ambientales que presentan asociacion con la diversidad alpha y mostrar cuales son las especies que contribuyen a la diversidad beta. Por ultimo, pero no menos importante, examinar en un espacio bidimensional las tendencias de ordenacion de las especies y determinar si las especies presentan patron aglomerado.  
 
 
 # Metodología
 
-	La Isla de Barro Colorado sostiene un bosque semicaducifolio, sobre suelos arcillosos derivados de basalto y de rocas sedimentarias [@windsorestructura]. La parcela permanente de árboles de 50 hectáreas de la isla Barro Colorado se estableció en 1980 en el bosque húmedo tropical ubicado en el lago Gatún en el centro de Panamá [@perez2005metodologia].
+
+## Area de Estudio
+
+
+La isla de Barro Colorado es una colina de 1,500 hectáreas ubicada a 137 msnm en el lago Gatún. La parte superior de la isla es ancha y plana, y se asienta sobre un lecho de roca de basalto, de la cual irradian colinas empinadas y valles tallados en rocas sedimentarias que contienen gran cantidad de restos volcánicos. El suelo es arcilloso y la profundidad varía de 50 cm a un metro. El clima es típico de las areas tropicales [@perez2005metodologia;@windsorestructura]. Su vegetación está formada por bosques semideciduos de tierras bajas, y se han registrado más de 1,300 especies de plantas vasculares [@croat1978flora]. 
+
+La parcela permanente de árboles de 50 hectáreas se estableció en 1980 en el bosque húmedo tropical. El sitio es un rectángulo de 1,000 m de largo por 500 m de ancho, ubicado en la meseta central de la isla. Está dividido en 1,250 cuadrantes de 20x20 m, en el cual se han contabilizado todos
+los arboles con más de 10 mm de diámetro a la altura del pecho cada cinco años desde 1985 [@perez2005metodologia;@condit2012thirty;@condit2017demographic] (ver figura \ref{fig:mapabarro}). 
+
+
+
+![Mapa topográfico de la parcela de cincuenta hectáreas \label{fig:mapabarro}](mapa Barro Colorado.png){width=100%}
+
+
+## Maeriales y Metodos
+
+
+Los datos de cada uno de los cuadrantes de una hectárea que componen BCI, fueron procesados en R [@Restudio], teniendo en cuenta la matriz ambiental y la matriz de comunidad, lo cuales contienen datos de las variables ambientales, tales como condiciones edaficas, tipo de habitat, topografia del lugar, clasificacion etaria del bosque, y datos demograficos y geoferenciacion espacial de todos los individuos censados. Se adaptaron scripts reproducibles recuperados de @jose_ramon_martinez_batlle_2020_4402362, utilizando la colección
+de paquetes multifuncionales vegan [@vegan], Tidyverse [@tidyverse], BiodiversityR [@diversityanalysis] y indicspecies [@indicspecies]. 
+
+Para conocer las características de los datos almacenados de la matriz de comunidad y ambiental, se realizó un análisis exploratorio que incluyó visualización de gráficos, tablas, mapas de los cuadrantes de una hectárea y tablas de correlación lineal entre las dos variables de la matriz, lo que permitió una vista común y ayudó a determinar procedimientos más detallados a continuación.
+
+## Medición de asociación (ma)
+
+Para realizar las pruebas de medicion de asociacion, se calculó la distancia euclidiana entre los cuadrados considerados objetos. Para ello, se requierió una transformación de la matriz de comunidad mediante el método Hellinger, que incluye elevar al cuadrado la abundancia relativa yij (cociente resultante de cada valor de abundancia entre la suma de los sitios), como muestra la formula \ref{fig:formula}. Donde j denota cada tipo o columna de la matriz, i es la fila o cuadrante e i+ representa la suma de filas de la matriz de la i-ésima fila [@legendre2001ecologically]. Además, se evaluó la distancia euclidiana entre los cuadrantes en términos de ocurrencia de especies. Se utilizó el índice de disimilitud de Jaccard de la matriz normalizada para convertir el valor de abundancia en un valor binario [@brocard2011numerical]. del mismo modo, se empleó la métrica de Jaccard para aplicar la transposición de la matriz de la comunidad y convertir a datos Presencia / ausencia para medir el grado de asociación entre especies.
+
+
+![Formula. Transformación de la matriz de comunidad mediante el método Hellinger \label{fig:formula}](Formula2.png){width=100%}
+
+
+
+Para poder comparar la relación entre especies en función de su abundancia, se utilizó estandarización ji-cuadrado de la matriz de comunidad transpuesta [@legendre2001ecologically]. Se examinó la ocurrencia entre especies y su distribución en BCI por el coeficiente de orrelación entre rangos de Spearman  para medir el grado de correlación entre las variables riqueza númerica de especies y la abundancia con las variables ambientales geomorfológicas, y la
+composición química del suelo[@brocard2011numerical].
+
+
+
+
+
+
+
 
 # Resultados
 
