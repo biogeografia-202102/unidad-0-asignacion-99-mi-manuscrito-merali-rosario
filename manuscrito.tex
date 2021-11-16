@@ -304,6 +304,50 @@ entre las variables riqueza númerica de especies y la abundancia con las
 variables ambientales geomorfológicas, y la composición química del
 suelo(Brocard et al., 2018).
 
+\subsection{Analisis de agrupamiento}\label{analisis-de-agrupamiento}
+
+El método jerarquico aglomerativo de asociación entre pares de
+cuadrantes (según la composición de especies) bajo el estándar de enlace
+completo, y el método de Ward basado en la varianza mínima, se utilizan
+como método preliminar para el análisis de agrupamiento, con el fin de
+probar su efectividad en lograr un grupo consistente de importancia
+ecológica (Brocard et al., 2018). Luego, estos generaron dendrogramas
+que posteriormente son comparados con la matriz de distancia de cuerdas
+(Legendre \& Gallagher, 2001). Usando correlación cofenética entre los
+dos para determinar el número ideal de grupos. Además, se utilizó
+remuestreo bootstrap y boostrap multiescalar para conocer la
+probabilidad de éxito de la inferencia del número de grupos y la
+identidad de sus componentes (Brocard et al., 2018). Las distribuciones
+se basaban en una probabilidad de 91\% o más de acierto para el método
+bootstrap y de un 95\% para boostrap multiescalar.
+
+Dado que se localizaron patrones consistentes en la composicion y numero
+de grupos entre los metodos examinados, los análisis de agruoamiento
+posteriores se basan en los que se produce por enlace completo e incluye
+dos grupos compuestos por 20 y 30 cuadrantes, respectivamente(ver figura
+\ref{fig:Dendograma}).
+
+\begin{figure}
+\centering
+\includegraphics[width=1.00000\textwidth]{Dendograma.png}
+\caption{Dendrogramas de los grupos producidos por Ward y Complete
+\label{fig:Dendograma}}
+\end{figure}
+
+Para conocer las especies distintas o asociadas a cada grupo, se utiliza
+el valor del indicador o índice IndVal (``Conjuntos de especies y
+especies indicadoras,'' n.d.), basado en permutaciones aleatorias de los
+sitios según la presencia de especies y la abundancia de estos. De
+manera similar, el grado de asociación de una especie con una
+preferencia particular por el grupo de cuadrantes considerado grupo en
+estudio, expresado como el coeficiente de correlación biserial puntual
+(Brocard et al., 2018). Se adoptó un enfoque similar al anterior a lo
+largo de las pruebas estadísticas de la hipótesis nula, basada en las
+especies presentes en los cuadrantes pertenecientes a un determinado
+grupo realizado al azar. Esta prueba se hizo reordenando aleatoriamente
+los valores de abundancia y comparando sus distribuciones con las
+obtenidas previamente (Cáceres \& Legendre, 2009).
+
 \section{Resultados}\label{resultados}
 
 En toda la parcela, se registró un total de 2029 pertenecientes a 5
@@ -636,7 +680,13 @@ Long coding sessions (Version v0.0.0.9000).
 
 \hypertarget{ref-brocard2011numerical}{}
 Brocard, D., Gillet, F., \& Legendre, P. (2018). Numerical ecology with
-r (use r!). \emph{Springer-Verlag New York. Doi}, \emph{10}, 52--66.
+r. \emph{Springer Nature}, \emph{Second Edition}, 52--66. Retrieved from
+\url{https://doi.org/10.1007/978-3-319-71404-2}
+
+\hypertarget{ref-caceres2009associations}{}
+Cáceres, M. D., \& Legendre, P. (2009). Associations between species and
+groups of sites: Indices and statistical inference. \emph{Ecology},
+\emph{90}(12), 3566--3574.
 
 \hypertarget{ref-condit2012thirty}{}
 Condit, R. A. y H., Richard y Chisholm. (n.d.). Treinta años de censo
@@ -647,6 +697,10 @@ mantener la diversidad. \emph{PloS One}.
 Condit, R. y L., Richard y P ~'e rez. (n.d.). Tendencias demográficas y
 clima durante 35 años en la parcela de 50 ha de barro colorado.
 \emph{Forest Ecosystems}.
+
+\hypertarget{ref-dufrene1997species}{}
+Conjuntos de especies y especies indicadoras: La necesidad de un enfoque
+asimétrico flexible. (n.d.). \emph{Monografías Ecológicas}.
 
 \hypertarget{ref-indicspecies}{}
 De Caceres, M., \& Legendre, P. (2009). Associations between species and

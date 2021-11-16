@@ -89,9 +89,17 @@ Para realizar las pruebas de medicion de asociacion, se calculó la distancia eu
 Para poder comparar la relación entre especies en función de su abundancia, se utilizó estandarización ji-cuadrado de la matriz de comunidad transpuesta [@legendre2001ecologically]. Se examinó la ocurrencia entre especies y su distribución en BCI por el coeficiente de orrelación entre rangos de Spearman  para medir el grado de correlación entre las variables riqueza númerica de especies y la abundancia con las variables ambientales geomorfológicas, y la
 composición química del suelo[@brocard2011numerical].
 
+##Analisis de agrupamiento 
 
 
+El método jerarquico aglomerativo de asociación entre pares de cuadrantes (según la composición de especies) bajo el estándar de enlace completo, y el método de Ward basado en la varianza mínima, se utilizan como método preliminar para el análisis de agrupamiento, con el fin de  probar su efectividad en lograr un grupo consistente de importancia ecológica [@brocard2011numerical]. Luego, estos generaron dendrogramas que posteriormente son comparados con la matriz de distancia de cuerdas [@legendre2001ecologically]. Usando correlación cofenética entre los dos para determinar el número ideal de grupos. Además, se utilizó remuestreo bootstrap y boostrap multiescalar para conocer la probabilidad de éxito de la inferencia del número de grupos y la identidad de sus componentes [@brocard2011numerical]. Las distribuciones se basaban en una probabilidad de 91% o más de acierto para el método bootstrap y de un 95% para boostrap multiescalar.
 
+Dado que se localizaron patrones consistentes en la composicion y numero de grupos entre los metodos examinados, los análisis de agruoamiento posteriores se basan en los que se produce por enlace completo e incluye dos grupos compuestos por 20 y 30 cuadrantes, respectivamente(ver figura \ref{fig:Dendograma}).
+
+
+![Dendrogramas de los grupos producidos por Ward y Complete \label{fig:Dendograma}](Dendograma.png){width=100%}
+
+Para conocer las especies distintas o asociadas a cada grupo, se utiliza el valor del indicador o índice IndVal [@dufrene1997species], basado en permutaciones aleatorias de los sitios según la presencia de especies y la abundancia de estos. De manera similar, el grado de asociación de una especie con una preferencia particular por el grupo de cuadrantes considerado grupo en estudio, expresado como el coeficiente de correlación biserial puntual [@brocard2011numerical]. Se adoptó un enfoque similar al anterior a lo largo de las pruebas estadísticas de la hipótesis nula, basada en las especies presentes en los cuadrantes pertenecientes a un determinado grupo realizado al azar. Esta prueba se hizo reordenando aleatoriamente los valores de abundancia y comparando sus distribuciones con las obtenidas previamente [@caceres2009associations]. 
 
 
 
