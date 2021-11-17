@@ -65,3 +65,4 @@ mapa_cuadros <- mapView(
 #' Utilizar el mapa de cuadros para identificar aquellos que contribuyen más a la diversidad beta. Explorar mapas de variables ambientales (aec_6).
 #' 
 mapa_cuadros
+

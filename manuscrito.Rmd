@@ -101,6 +101,35 @@ Dado que se localizaron patrones consistentes en la composicion y numero de grup
 
 Para conocer las especies distintas o asociadas a cada grupo, se utiliza el valor del indicador o índice IndVal [@dufrene1997species], basado en permutaciones aleatorias de los sitios según la presencia de especies y la abundancia de estos. De manera similar, el grado de asociación de una especie con una preferencia particular por el grupo de cuadrantes considerado grupo en estudio, expresado como el coeficiente de correlación biserial puntual [@brocard2011numerical]. Se adoptó un enfoque similar al anterior a lo largo de las pruebas estadísticas de la hipótesis nula, basada en las especies presentes en los cuadrantes pertenecientes a un determinado grupo realizado al azar. Esta prueba se hizo reordenando aleatoriamente los valores de abundancia y comparando sus distribuciones con las obtenidas previamente [@caceres2009associations]. 
 
+##Análisis de diversidad alpha y beta
+
+La diversidad alpha representa la diversidad de especies a lo largo de todas las subunidades (o escalas) locales relevantes (e.g. hábitat), y por definición abarca dos variables importantes: (1) la riqueza de especies, y (2) la abundancia relativa de especies [@carmona2013diversidad]. Para calcular la diversidad alpha se utilizo el indice de  Fisher [@fisher1943relation], el índice de Simpson [@simpson1949measurement], y el índice de Shannon-Wiener [@shannon1948mathematical]. Estos índices de diversidad alpha utilizaron los valores de riqueza y abundancia relativa, solamente que las operaciones matemáticas de estos valores se organizan de diferentes formas.  Por ejemplo, el
+índice de Shannon-Wiener, se calculará de acuerdo a la fórmula \ref{fig:indice_shannon}:
+
+
+![Formula 2. Indice de Shannon\label{fig:indice_shannon}](Formula_diversidad_alpha.png){width=50%}
+
+Donde la variable “pi” representa la proporción de la abundancia relativa de la especie “i” en relación a la abundancia de todas las especies detectadas del muestreo. El valor mínimo puede aproximarse al cero y el valor máximo, en teoría, no está consolidado a un límite. El valor (H) del índice Shannon-Wiener aumenta con respecto a una de dos razones: (1) un aumento en la riqueza de especies, y/ o (2) un aumento en la equitatividad de la representación de la
+abundancia relativa especies. Es decir, cuando el índice de diversidad alpha aumenta, el número del índice en si no es suficiente para determinar si el cambio es por un aumento en la riqueza o equitatividad de especies. Por esta razón, los índices de diversidad-alfa siempre se reportaran en conjunto con los análisis de riqueza y equitatividad de especies detectadas en el muestreo [@carmona2013diversidad]. 
+
+Cada índice de diversidad alpha tiene su propia fórmula para calcular la equitatividad de especies. Por ejemplo, índice de Shannon-Wiener se puede utilizar para calcular equitatividad de especies de acuerdo a la fórmula \ref{fig:equidad}: donde la variable “H” es el índice de Shannon-Wiener y la variable “S” es la riqueza de especies detectadas durante el muestreo. El valor (J) de la equitatividad de especies varía entre los valores “0” y “1”; donde el valor “0” representa baja equitatividad (o alta dominancia por pocas especies) y el valor “1” representa total equitatividad en la representación de individuos de cada especie detectada en el muestreo [@carmona2013diversidad].
+
+![Formula 3. Equididad segun el indice de Shannon\label{fig:equidad}](equidad.png){width=50%}
+
+Para determinar la rarefaccion se compararo los índices de diversidad entre hábitats en base a un mismo número de individuos, donde
+el hábitat con el mayor número de individuos se submuestreo sin remplazo aleatoriamente y con múltiples ejecuciones para generar un índice promedio que se pueda comparar con el índice de otro hábitat en base
+a un mismo número de individuos. El resultado de esta técnica resulto con una curva rarificada de valores del índice de diversidad que disminuye conforme con el muestreo sin remplazo del número de individuos[@carmona2013diversidad].
+
+
+
+
+Sitios que tienen mayores valores de equidad (azul y verde)... (ver figura \ref{fig:grafico_niveles_equidad}). 
+
+Curva de rarefaccion de los sitios, teniendo en cuenta la riqueza y la abundancia...(ver figura \ref{fig:Curva_rarefaccion}). analizar Analisis de diversidad 1
+
+Acumulacion de especies en funcion de numeros de individuos...(ver figura \ref{fig:acumulacion_especies_individuos}).
+
+
 
 
 
