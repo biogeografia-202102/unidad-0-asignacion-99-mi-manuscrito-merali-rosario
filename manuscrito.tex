@@ -334,7 +334,7 @@ dos grupos compuestos por 20 y 30 cuadrantes, respectivamente(ver figura
 \label{fig:Dendograma}}
 \end{figure}
 
-Para conocer las especies distintas o asociadas a cada grupo, se utiliza
+Para conocer las especies distintas o asociadas a cada grupo, se utilizo
 el valor del indicador o índice IndVal (``Conjuntos de especies y
 especies indicadoras,'' n.d.), basado en permutaciones aleatorias de los
 sitios según la presencia de especies y la abundancia de estos. De
@@ -347,6 +347,71 @@ especies presentes en los cuadrantes pertenecientes a un determinado
 grupo realizado al azar. Esta prueba se hizo reordenando aleatoriamente
 los valores de abundancia y comparando sus distribuciones con las
 obtenidas previamente (Cáceres \& Legendre, 2009).
+
+\subsection{Análisis de diversidad
+alpha}\label{anuxe1lisis-de-diversidad-alpha}
+
+La diversidad alpha representa la diversidad de especies a lo largo de
+todas las subunidades locales relevantes, y por definición abarca dos
+variables importantes: (1) la riqueza de especies, y (2) la abundancia
+relativa de especies (Carmona-Galindo \& Carmona, 2013). Para calcular
+la diversidad alpha se utiliza el indice de Fisher (Fisher, Corbet, \&
+Williams, 1943), el índice de Simpson (E. H. Simpson, 1949), y el índice
+de Shannon-Wiener (Shannon, n.d.). A fin de determinar la diversidad
+alpha se utilizaron métodos como la Entropia de Shannon H1, que calcula
+el grado de desorden en la muestra, el índice de concentración de
+Simpson, que calcula la probabilidad de que dos individuos seleccionados
+aleatoriamente puedan ser de la misma especie. Ademas, se empleó la
+serie de números de diversidad de Hill, la fórmula de la entropía de
+Rengi y el índice de equidad de Pielou.
+
+Para determinar la rarefaccion se comparó los índices de diversidad
+entre hábitats en base a un mismo número de individuos, donde el hábitat
+con el mayor número de individuos se submuestreo sin remplazo
+aleatoriamente y con múltiples ejecuciones para generar un índice
+promedio que se pueda comparar con el índice de otro hábitat en base a
+un mismo número de individuos. El resultado de esta técnica resulto con
+una curva rarificada de valores del índice de diversidad que disminuye
+conforme con el muestreo sin remplazo del número de
+individuos(Carmona-Galindo \& Carmona, 2013)(ver figura
+\ref{fig:Curva_rarefaccion; acumulacion_especies_individuos}).
+
+\subsection{Analisis de diversidad
+beta}\label{analisis-de-diversidad-beta}
+
+La diversidad beta, de acuerdo con (Whittaker, 1960), se define como el
+diferencial entre la diversidad de un hábitat y la diversidad total de
+un paisaje de hábitats. Teniendo en vuenta lo anterior, se utilizo el
+metodo hellinger para determinar cuales son las especies que contribuyen
+a la diversidad beta, es decir, las especies que no se encuentran
+compartidas entre los cuadrantes.
+
+\subsection{Análisis de ordenación simple (no restringida) y canónica
+(restringida)}\label{anuxe1lisis-de-ordenaciuxf3n-simple-no-restringida-y-canuxf3nica-restringida}
+
+Se aplicaron los análisis de componentes principales o PCA a los datos
+de las variables ambientale para determianar la ordenacion no
+restringida, donde se tomó en cuenta especificamente las variables del
+suelo. y para determinar la ordenacion restringida se exploró de manera
+explícita las relaciones entre una matriz de respuesta y una matriz
+explicativa con los análisis de redundancia o RDA, lo cual combina la
+regresión y el análisis de componentes principales (PCA), por ejemplo,
+busca tendencias en la matriz de comunidad restringiéndolas a la matriz
+ambiental.
+
+\subsection{Ecología espacial}\label{ecologuxeda-espacial}
+
+En ecología espacial se utilizó la matriz transformada de hellinger y la
+matriz ambiental para crear un cuadro de vecindad y ver como se
+autocorrelacionan los sitios. Se genera un correlograma para la variable
+que queremos estudiar mediante la función `sp.correlogram' y para varias
+variables como la abundancia de especies y las variables ambientales.
+También, se utilizaron otros métodos como la prueba Mantel con matrices
+de distancia para autocorrelación espacial con y sin tendencia, y el I
+de Moran con una matriz de abundancia de especies transformada sin
+tendencia, lo cual se aplica a variables ambientales para obtener los
+datos de autocorrelación, distribución de especies y variables en los
+sitios de muestreo.
 
 \section{Resultados}\label{resultados}
 
@@ -683,6 +748,11 @@ Brocard, D., Gillet, F., \& Legendre, P. (2018). Numerical ecology with
 r. \emph{Springer Nature}, \emph{Second Edition}, 52--66. Retrieved from
 \url{https://doi.org/10.1007/978-3-319-71404-2}
 
+\hypertarget{ref-carmona2013diversidad}{}
+Carmona-Galindo, V. D., \& Carmona, T. V. (2013). La diversidad de los
+análisis de diversidad la diversidad de los analisis de diversidad
+{[}the diversity of diversity analyses{]}. \emph{Bioma}.
+
 \hypertarget{ref-caceres2009associations}{}
 Cáceres, M. D., \& Legendre, P. (2009). Associations between species and
 groups of sites: Indices and statistical inference. \emph{Ecology},
@@ -706,6 +776,12 @@ asimétrico flexible. (n.d.). \emph{Monografías Ecológicas}.
 De Caceres, M., \& Legendre, P. (2009). Associations between species and
 groups of sites: Indices and statistical inference. In \emph{Ecology}.
 Retrieved from \url{http://sites.google.com/site/miqueldecaceres/}
+
+\hypertarget{ref-fisher1943relation}{}
+Fisher, R. A., Corbet, A. S., \& Williams, C. B. (1943). The relation
+between the number of species and the number of individuals in a random
+sample of an animal population. \emph{The Journal of Animal Ecology},
+42--58.
 
 \hypertarget{ref-croat1978flora}{}
 \emph{Flora de la isla barro colorado}. (n.d.). Stanford University
@@ -758,11 +834,23 @@ Rodríguez-Flores, W., \& Barrios, H. (2020). Scolytinae y platypodinae
 (coleoptera: Curculionidae) de la isla barro colorado, panamá.
 \emph{Scientia}, \emph{30}(1), 15--52.
 
+\hypertarget{ref-shannon1948mathematical}{}
+Shannon, C. E. (n.d.). Una teoría matemática de la comunicación.
+\emph{El Diario Técnico Del Sistema Bell}.
+
+\hypertarget{ref-simpson1949measurement}{}
+Simpson, E. H. (1949). Measurement of diversity. \emph{Nature},
+\emph{163}(4148), 688--688.
+
 \hypertarget{ref-smedmark2007boreotropical}{}
 Smedmark, A. A., Jenny EE y Anderberg. (n.d.). La migración
 boreotropical explica la hibridación entre linajes geográficamente
 distantes en el clado pantropical sideroxyleae (sapotaceae).
 \emph{American Journal of Botany}.
+
+\hypertarget{ref-whittaker1960vegetation}{}
+Whittaker, R. H. (1960). Vegetation of the siskiyou mountains, oregon
+and california. \emph{Ecological Monographs}, \emph{30}(3), 279--338.
 
 \hypertarget{ref-tidyverse}{}
 Wickham, H. (2017). \emph{Tidyverse: Easily install and load the
