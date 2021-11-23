@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  23 NOV 2021 00:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  28 NOV 2021 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,42 +718,42 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 <mapa Barro Colorado.png, id=77, 412.54124pt x 425.33907pt>
 File: mapa Barro Colorado.png Graphic file (type png)
 <use mapa Barro Colorado.png>
-Package pdftex.def Info: mapa Barro Colorado.png  used on input line 247.
+Package pdftex.def Info: mapa Barro Colorado.png  used on input line 246.
 (pdftex.def)             Requested size: 412.55911pt x 425.35748pt.
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.264 
+l.263 
        <./mapa Barro Colorado.png>]
 <Formula2.png, id=86, 149.8097pt x 42.1575pt>
 File: Formula2.png Graphic file (type png)
 <use Formula2.png>
-Package pdftex.def Info: Formula2.png  used on input line 293.
+Package pdftex.def Info: Formula2.png  used on input line 292.
 (pdftex.def)             Requested size: 149.81158pt x 42.15802pt.
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.323 
+l.322 
        <./Formula2.png>]
 <Dendograma.png, id=94, 532.23843pt x 344.03531pt>
 File: Dendograma.png Graphic file (type png)
 <use Dendograma.png>
-Package pdftex.def Info: Dendograma.png  used on input line 332.
+Package pdftex.def Info: Dendograma.png  used on input line 331.
 (pdftex.def)             Requested size: 469.76813pt x 303.65492pt.
 [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.352 alpha}
+l.351 alpha}
             \label{anuxe1lisis-de-diversidad-alpha} <./Dendograma.png>]
 
 LaTeX Warning: Reference `fig:Curva_rarefaccion; acumulacion_especies_individuo
-s' on page 5 undefined on input line 377.
+s' on page 5 undefined on input line 376.
 
 [5]
 <manuscrito_files/figure-latex/unnamed-chunk-3-1.pdf, id=107, 857.2025pt x 109.
@@ -762,7 +762,7 @@ File: manuscrito_files/figure-latex/unnamed-chunk-3-1.pdf Graphic file (type pd
 f)
 <use manuscrito_files/figure-latex/unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: manuscrito_files/figure-latex/unnamed-chunk-3-1.pdf  u
-sed on input line 447.
+sed on input line 446.
 (pdftex.def)             Requested size: 469.74937pt x 59.95628pt.
 <manuscrito_files/figure-latex/unnamed-chunk-4-1.pdf, id=108, 857.2025pt x 566.
 115pt>
@@ -770,44 +770,44 @@ File: manuscrito_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pd
 f)
 <use manuscrito_files/figure-latex/unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: manuscrito_files/figure-latex/unnamed-chunk-4-1.pdf  u
-sed on input line 453.
+sed on input line 452.
 (pdftex.def)             Requested size: 469.74937pt x 310.2326pt.
 [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.457 
+l.456 
        <./manuscrito_files/figure-latex/unnamed-chunk-3-1.pdf>]
 <mapa_cuadros_riq_mi_familia.png, id=123, 995.72pt x 762.85pt>
 File: mapa_cuadros_riq_mi_familia.png Graphic file (type png)
 <use mapa_cuadros_riq_mi_familia.png>
 Package pdftex.def Info: mapa_cuadros_riq_mi_familia.png  used on input line 46
-5.
+4.
 (pdftex.def)             Requested size: 234.87544pt x 179.9449pt.
 <mapa_cuadros_ph.png, id=126, 995.72pt x 762.85pt>
 File: mapa_cuadros_ph.png Graphic file (type png)
 <use mapa_cuadros_ph.png>
-Package pdftex.def Info: mapa_cuadros_ph.png  used on input line 476.
+Package pdftex.def Info: mapa_cuadros_ph.png  used on input line 475.
 (pdftex.def)             Requested size: 234.87544pt x 179.9449pt.
 [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.478 \end{figure}
+l.477 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.478 \end{figure}
+l.477 \end{figure}
                    <./manuscrito_files/figure-latex/unnamed-chunk-4-1.pdf> <./m
 apa_cuadros_riq_mi_familia.png>]
 <mapa_cuadros_pendiente.png, id=142, 995.72pt x 762.85pt>
 File: mapa_cuadros_pendiente.png Graphic file (type png)
 <use mapa_cuadros_pendiente.png>
-Package pdftex.def Info: mapa_cuadros_pendiente.png  used on input line 482.
+Package pdftex.def Info: mapa_cuadros_pendiente.png  used on input line 481.
 (pdftex.def)             Requested size: 234.87544pt x 179.9449pt.
 <manuscrito_files/figure-latex/unnamed-chunk-5-1.pdf, id=144, 854.19125pt x 565
 .11125pt>
@@ -815,162 +815,162 @@ File: manuscrito_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pd
 f)
 <use manuscrito_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: manuscrito_files/figure-latex/unnamed-chunk-5-1.pdf  u
-sed on input line 494.
+sed on input line 493.
 (pdftex.def)             Requested size: 469.75452pt x 310.77765pt.
 [8pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
+l.497 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
+l.497 
        <./mapa_cuadros_ph.png> <./mapa_cuadros_pendiente.png>]
 <mapas_variables_ambientales_numericas.png, id=156, 819.06pt x 520.344pt>
 File: mapas_variables_ambientales_numericas.png Graphic file (type png)
 <use mapas_variables_ambientales_numericas.png>
 Package pdftex.def Info: mapas_variables_ambientales_numericas.png  used on inp
-ut line 505.
+ut line 504.
 (pdftex.def)             Requested size: 469.76855pt x 298.44118pt.
 [9pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.509 
+l.508 
        <./manuscrito_files/figure-latex/unnamed-chunk-5-1.pdf>]
 <mapas_variables_ambientales_nominales_tmap.png, id=175, 412.97144pt x 247.7828
 5pt>
 File: mapas_variables_ambientales_nominales_tmap.png Graphic file (type png)
 <use mapas_variables_ambientales_nominales_tmap.png>
 Package pdftex.def Info: mapas_variables_ambientales_nominales_tmap.png  used o
-n input line 512.
+n input line 511.
 (pdftex.def)             Requested size: 412.97041pt x 247.78224pt.
 [10pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.521 
+l.520 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.521 
+l.520 
        <./mapas_variables_ambientales_numericas.png (PNG copy)> <./mapas_variab
 les_ambientales_nominales_tmap.png (PNG copy)>]
 <medicion_asociacion_jaccard.png, id=181, 494.59781pt x 324.46219pt>
 File: medicion_asociacion_jaccard.png Graphic file (type png)
 <use medicion_asociacion_jaccard.png>
 Package pdftex.def Info: medicion_asociacion_jaccard.png  used on input line 52
-4.
+3.
 (pdftex.def)             Requested size: 469.75204pt x 308.16306pt.
 File: medicion_asociacion_jaccard.png Graphic file (type png)
 <use medicion_asociacion_jaccard.png>
 Package pdftex.def Info: medicion_asociacion_jaccard.png  used on input line 53
-6.
+5.
 (pdftex.def)             Requested size: 469.75204pt x 308.16306pt.
 [11pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.541 
+l.540 
        <./medicion_asociacion_jaccard.png (PNG copy)>]
 <actualizacion2_grupos_upgma.png, id=190, 749.80125pt x 344.03531pt>
 File: actualizacion2_grupos_upgma.png Graphic file (type png)
 <use actualizacion2_grupos_upgma.png>
 Package pdftex.def Info: actualizacion2_grupos_upgma.png  used on input line 54
-7.
+6.
 (pdftex.def)             Requested size: 469.7573pt x 215.54124pt.
 [12pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.551 
+l.550 
       ]
 <mapa_upgma_k2.png, id=197, 995.72pt x 762.85pt>
 File: mapa_upgma_k2.png Graphic file (type png)
 <use mapa_upgma_k2.png>
-Package pdftex.def Info: mapa_upgma_k2.png  used on input line 557.
+Package pdftex.def Info: mapa_upgma_k2.png  used on input line 556.
 (pdftex.def)             Requested size: 469.7661pt x 359.90144pt.
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.561 
+l.560 
        <./actualizacion2_grupos_upgma.png (PNG copy)>]
 <correlacion_pearson.png, id=205, 437.38406pt x 344.03531pt>
 File: correlacion_pearson.png Graphic file (type png)
 <use correlacion_pearson.png>
-Package pdftex.def Info: correlacion_pearson.png  used on input line 584.
+Package pdftex.def Info: correlacion_pearson.png  used on input line 583.
 (pdftex.def)             Requested size: 437.38298pt x 344.03447pt.
 [14pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.591 
+l.590 
        <./mapa_upgma_k2.png>]
 <correlacion_diversidad_equidad_actualizado.png, id=213, 590.205pt x 344.03531p
 t>
 File: correlacion_diversidad_equidad_actualizado.png Graphic file (type png)
 <use correlacion_diversidad_equidad_actualizado.png>
 Package pdftex.def Info: correlacion_diversidad_equidad_actualizado.png  used o
-n input line 598.
+n input line 597.
 (pdftex.def)             Requested size: 469.76009pt x 273.827pt.
 [15pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.602 
+l.601 
        <./correlacion_pearson.png (PNG copy)>]
 <grafico_niveles_equidad.png, id=220, 469.00218pt x 227.34938pt>
 File: grafico_niveles_equidad.png Graphic file (type png)
 <use grafico_niveles_equidad.png>
-Package pdftex.def Info: grafico_niveles_equidad.png  used on input line 608.
+Package pdftex.def Info: grafico_niveles_equidad.png  used on input line 607.
 (pdftex.def)             Requested size: 469.00104pt x 227.34882pt.
 <Curva_rarefaccion.png, id=222, 469.00218pt x 255.95625pt>
 File: Curva_rarefaccion.png Graphic file (type png)
 <use Curva_rarefaccion.png>
-Package pdftex.def Info: Curva_rarefaccion.png  used on input line 619.
+Package pdftex.def Info: Curva_rarefaccion.png  used on input line 618.
 (pdftex.def)             Requested size: 469.00104pt x 255.95561pt.
 [16pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.622 \end{figure}
+l.621 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.622 \end{figure}
+l.621 \end{figure}
                    <./correlacion_diversidad_equidad_actualizado.png (PNG copy)
 > <./grafico_niveles_equidad.png (PNG copy)>]
 <acumulacion_especies_individuos.png, id=229, 469.00218pt x 255.95625pt>
 File: acumulacion_especies_individuos.png Graphic file (type png)
 <use acumulacion_especies_individuos.png>
 Package pdftex.def Info: acumulacion_especies_individuos.png  used on input lin
-e 634.
+e 633.
 (pdftex.def)             Requested size: 469.00104pt x 255.95561pt.
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.638 
+l.637 
        <./Curva_rarefaccion.png (PNG copy)>]
-Overfull \hbox (5.49197pt too wide) in paragraph at lines 639--643
+Overfull \hbox (5.49197pt too wide) in paragraph at lines 638--642
 \T1/ppl/m/n/10.95 Chrys-o-phyl-lum ar-gen-teum Chrys-o-phyl-lum cainito Poute-r
 ia stip-i-tata 0.2504234 0.3147978 0.2658814 
  []
@@ -978,25 +978,25 @@ ia stip-i-tata 0.2504234 0.3147978 0.2658814
 <env_suelo_pca.png, id=239, 397.485pt x 255.95625pt>
 File: env_suelo_pca.png Graphic file (type png)
 <use env_suelo_pca.png>
-Package pdftex.def Info: env_suelo_pca.png  used on input line 661.
+Package pdftex.def Info: env_suelo_pca.png  used on input line 660.
 (pdftex.def)             Requested size: 397.48402pt x 255.95561pt.
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.665 
+l.664 
        <./acumulacion_especies_individuos.png (PNG copy)>]
 <Biplot_PCA_escalamiento_actualizado.png, id=246, 953.06062pt x 344.03531pt>
 File: Biplot_PCA_escalamiento_actualizado.png Graphic file (type png)
 <use Biplot_PCA_escalamiento_actualizado.png>
 Package pdftex.def Info: Biplot_PCA_escalamiento_actualizado.png  used on input
- line 674.
+ line 673.
 (pdftex.def)             Requested size: 469.76688pt x 169.57619pt.
 <PCA_comunidad_actualizado.png, id=248, 800.9925pt x 344.03531pt>
 File: PCA_comunidad_actualizado.png Graphic file (type png)
 <use PCA_comunidad_actualizado.png>
-Package pdftex.def Info: PCA_comunidad_actualizado.png  used on input line 689.
+Package pdftex.def Info: PCA_comunidad_actualizado.png  used on input line 688.
 
 (pdftex.def)             Requested size: 469.75816pt x 201.76642pt.
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
@@ -1004,13 +1004,13 @@ Package pdftex.def Info: PCA_comunidad_actualizado.png  used on input line 689.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.693 
+l.692 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.693 
+l.692 
        <./env_suelo_pca.png (PNG copy)> <./Biplot_PCA_escalamiento_actualizado.
 png (PNG copy)>]
 <analisis_de_correspondencia_actualizado.png, id=257, 777.65532pt x 344.03531pt
@@ -1018,76 +1018,76 @@ png (PNG copy)>]
 File: analisis_de_correspondencia_actualizado.png Graphic file (type png)
 <use analisis_de_correspondencia_actualizado.png>
 Package pdftex.def Info: analisis_de_correspondencia_actualizado.png  used on i
-nput line 700.
+nput line 699.
 (pdftex.def)             Requested size: 469.76503pt x 207.8244pt.
 <Promedios_ponderados.png, id=259, 846.16125pt x 344.03531pt>
 File: Promedios_ponderados.png Graphic file (type png)
 <use Promedios_ponderados.png>
-Package pdftex.def Info: Promedios_ponderados.png  used on input line 710.
+Package pdftex.def Info: Promedios_ponderados.png  used on input line 709.
 (pdftex.def)             Requested size: 469.75417pt x 190.99435pt.
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.23}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.714 
+l.713 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.714 
+l.713 
        <./PCA_comunidad_actualizado.png (PNG copy)> <./analisis_de_corresponden
 cia_actualizado.png (PNG copy)>]
 <especies_ecologia_espacial.png, id=267, 783.67781pt x 344.03531pt>
 File: especies_ecologia_espacial.png Graphic file (type png)
 <use especies_ecologia_espacial.png>
-Package pdftex.def Info: especies_ecologia_espacial.png  used on input line 719
+Package pdftex.def Info: especies_ecologia_espacial.png  used on input line 718
 .
 (pdftex.def)             Requested size: 469.7559pt x 206.2233pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 733.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 732.
 [21pdfTeX warning (ext4): destination with the same identifier (name{figure.25}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.737 \section*{Referencias}
+l.736 \section*{Referencias}
                             \label{referencias}pdfTeX warning (ext4): destinati
 on with the same identifier (name{figure.26}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.737 \section*{Referencias}
+l.736 \section*{Referencias}
                             \label{referencias} <./Promedios_ponderados.png (PN
 G copy)> <./especies_ecologia_espacial.png>]
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 744.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 743.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 744
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 743
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 744
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 743
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 744
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 743
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 744
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 743
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Overfull \hbox (35.64655pt too wide) in paragraph at lines 776--779
+Overfull \hbox (35.64655pt too wide) in paragraph at lines 780--783
 \T1/ppl/m/n/10.95 dices and sta-tis-ti-cal in-fer-ence. In \T1/ppl/m/it/10.95 E
 col-ogy\T1/ppl/m/n/10.95 . Re-trieved from [][]$http : / / sites . google . com
  / site / miqueldecaceres/$[][] 
@@ -1129,7 +1129,7 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
 fb>
-Output written on manuscrito.pdf (23 pages, 3194024 bytes).
+Output written on manuscrito.pdf (23 pages, 3194083 bytes).
 PDF statistics:
  361 PDF objects out of 1000 (max. 8388607)
  289 compressed objects within 3 object streams
