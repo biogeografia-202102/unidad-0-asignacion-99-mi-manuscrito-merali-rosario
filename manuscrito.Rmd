@@ -118,12 +118,12 @@ Se aplicaron los análisis de componentes principales o PCA a los datos de las v
 
 ##Ecología espacial
 
-En ecología espacial se utilizó la matriz transformada de hellinger y la matriz ambiental para crear un cuadro de vecindad y ver como se autocorrelacionan los sitios. Se genera un correlograma para la variable que queremos estudiar mediante la función ‘sp.correlogram’ y para varias variables como la abundancia de especies y las variables ambientales. También, se utilizaron otros métodos como la prueba Mantel con matrices de distancia para autocorrelación espacial con y sin tendencia, y el I de Moran con una matriz de abundancia de especies transformada sin tendencia, lo cual se aplica a variables ambientales para obtener los datos de autocorrelación, distribución de especies y variables en los sitios de muestreo.
+En ecología espacial se utilizó la matriz transformada de hellinger y la matriz ambiental para crear un cuadro de vecindad y ver como se autocorrelacionan los sitios. Se genera un correlograma para la variable que queremos estudiar mediante la función ‘sp.correlogram’ y para varias variables como la abundancia de especies y las variables ambientales. También, se utilizaron otros métodos como la prueba Mantel con matrices de distancia para autocorrelación espacial con y sin tendencia, y el I de Moran con una matriz de abundancia de especies transformada sin tendencia, lo cual se aplica a variables ambientales para obtener los datos de autocorrelación, distribución de especies y variables en los sitios d muestreo.
 
 
 # Resultados
 
-Se registraron un total de 5 especies de 2029 individuos en toda la parcela. La riqueza por cuadro fue de 4 especies y la mediana de la abundancia por cuadro fue de 39 individuos. La especie más abundante fue *Pouteria reticulata*, con 1084 individuos, y la menos abundante fue *Pouteria fossicola* con 3 individuos. La tabla \ref{tab:abun_sp} y la figura \ref{fig:abun_sp_q} resume estos resultados.
+Se registraron un total de 5 especies de 2029 individuos en toda la parcela. La riqueza por cuadro fue de 4 especies y la mediana de la abundancia por cuadro fue de 39 individuos. La especie más abundante fue *Pouteria reticulata*, con 1084 individuos, y la menos abundante fue *Pouteria fossicola* con 3 individuos. La tabla \ref{tab:abun_sp} y la figura \ref{fig:abun_sp_q} resume estos resultados. La distribucion de la riqueza numerica de especies de la familia Sapotaceae sigue un patron homogeneo, lo cual los agregados de riqueza maxima estan distribuidos en casi todo el area (ver Figura \ref{fig:mapa_cuadros_riq_mi_familia}).
 
 
 
@@ -137,19 +137,14 @@ abun_sp_q
 ```
 
 
-
 ```{r, echo=FALSE, fig.cap="\\label{fig:P13}Diagrama de cajas de la abundancia y riqueza segun habitats"}
 p13
 ```
 
-la distribucion de la riqueza numerica de especies de la familia Sapotaceae sigue un patron homogeneo, lo cual los agregados de riqueza maxima estan distribuidos en casi todo el area. (ver Figura \ref{fig:mapa_cuadros_riq_mi_familia})
-
-
-
 
 ![Distribucion de la riqueza de la familia Sapotaceae\label{fig:mapa_cuadros_riq_mi_familia}](mapa_cuadros_riq_mi_familia.png){width=50%}
 
-Las variables ambientales pH y pendiente media presentaron asociacion con la familia de plantas..., lo cual supone... (ver figuras \ref{fig:mapa_cuadros_pH} y \ref{fig:mapa_cuadros_pendiente}).
+Las variables ambientales pH y pendiente media presentaron una distribucion parecida a la disdtribucion de la fa..., lo cual supone... (ver figuras \ref{fig:mapa_cuadros_pH} y \ref{fig:mapa_cuadros_pendiente}).
 
 ![Distribucion del pH\label{fig:mapa_cuadros_pH}](mapa_cuadros_ph.png){width=50%}
 
