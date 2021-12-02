@@ -44,6 +44,7 @@ source("analisis_correlacion_variables_ambientales.R", local = knitr::knit_globa
 
 ```
 
+
 # Introducción
 
 La diversidad y estructura de los bosques miden los recursos y la abundancia en un área geográfica, por ejemplo, los bosques de la familia Sapotaceae son importantes para proporcionar alimento a las especies de vida silvestre [@martinez2021diversidad]. La familia Sapotaceae está ampliamente distribuida en la zonas tropicales [@smedmark2007boreotropical]. Produce madera de alta calidad, frutas tropicales y algunas especies producen látex, siendo una familia de plantas de importancia ecológica y económica [@martinez2020importancia].
