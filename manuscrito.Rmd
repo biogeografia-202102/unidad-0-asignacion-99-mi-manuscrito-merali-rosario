@@ -156,7 +156,7 @@ p_cor_suelo_ar
 
 ![variables ambientales nominales\label{fig:mapas_variables_ambientales_nominales}](mapas_variables_ambientales_nominales_tmap.png)
 
- El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten un 100% de sus especies, por lo que ambos sitios comparten 3 especies y no tienen especies exclusivas (ver figura \ref{fig:similaridad_jaccard}). Las variables geomorfologicas presentan asociación con la abundancia y riqueza, lo cual la figura \ref{fig:matriz_correlacion_geomorf_abun_riq_spearman}, muestra que hay mucha similaridad entre estas variables. Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma...(ver figura \ref{fig:grupos_upgma}). 
+ El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten un 100% de sus especies, por lo que ambos sitios comparten 3 especies y no tienen especies exclusivas (ver figura \ref{fig:similaridad_jaccard}). Las variables geomorfologicas presentan asociación con la abundancia y riqueza, lo cual la figura \ref{fig:matriz_correlacion_geomorf_abun_riq_spearman}, muestra que hay mucha similaridad entre estas variables.  
 
 ![Similaridad de Jaccard(color fucsia (magenta, rosa) significa "corta distancia=muy similares", y cian (celeste) significa "gran distancia=poco similares")\label{fig:similaridad_jaccard}](medicion_asociacion_jaccard.png)
 
@@ -164,54 +164,23 @@ p_cor_suelo_ar
 
 ![Panel de correlacion de Spearman entre los datos de la comunidad y las variables geomorfologicas\label{fig:matriz_correlacion_geomorf_abun_riq_spearman}](medicion_asociacion_jaccard.png)
 
+Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma resultaron significativas respecto a la variable fósforo. Por otro lado, el contenido de cobre y la abundancia global promedio, es decir, la media correspondiente a todas las plantas en BCI, son significativamente diferentes entre los sitios de ambos grupos, para un nivel de significancia de a = 0.1(ver figura \ref{fig:grupos_upgma}). El grupo 1 generado por enlace upgm esta conformado por 5 cuadrante y el grupo 2 por 46 cuadrantes (ver figura \ref{fig:mapa_upgma_k2}). El grupo 2 contiene los sitios con tendencia a presentar valores altos de zinc y contenido de cobre. Es probable que las especies indicadoras del grupo con un mayor contenido de cobre estén mostrando preferencia por estas condiciones ambientales.No obstante, la mayoría de componentes del suelo en BCI tienen valores bastante homogéneos, y más bien se presentan pequeños gradientes entre los cuadrantes, lo cual evita que este tipo de acercamiento sea concluyente. La especie Chrysophyllum argenteum fué la que obtuvo un valor alto de confianza al examinar su potencial como especies indicadoras del grupo 1. Para el caso del grupo 2, la especie indicadora fué Pouteria reticulata.
 
 ![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](actualizacion2_grupos_upgma.png){width=100%}
-
-
-La repartición de sitios en los grupos formulados por enlace upgm...(ver figura \ref{fig:mapa_upgma_k2}). 
 
 ![Mapa en el que se presenta la distribucion de sitios en los grupos formulados por enlace upgma\label{fig:mapa_upgma_k2}](mapa_upgma_k2.png)
 
 
-Las especies indicadoras fueron...(verificar analisis de agrupamiento 4)
-
-Análisis de especies indicadoras mediante IndVal
- Association function: IndVal.g
- Significance level (alpha): 0.05
-
- Total number of species: 5
- Selected number of species: 2 
- Number of species associated to 1 group: 2 
-
- List of species associated to each combination: 
-
- Group 1  #sps.  1 
-                             A      B stat p.value   
-Chrysophyllum argenteum 0.6565 1.0000 0.81   0.005 **
-
- Group 2  #sps.  1 
-                         A      B  stat p.value    
-Pouteria reticulata 0.6505 1.0000 0.807   0.001 ***
-
-grado de correlacion que existe en cado uno de los indices... (ver figura \ref{fig:correlacion_indices}). 
-
-
-
-![Grado de correlacion entre cado uno de los indices. N0: riqueza de especies; H: entropia de Shannon; Hb2: entropia de Shannon con 2 como base del logaritmo; N1 y N2: Numeros de Hill; N1b2: Numero de Hill 1 en base log 2; J: equidad de Pielou; E10 y E20: ratios de Hill 1 y 2 \label{fig:correlacion_indices}](correlacion_pearson.png){width=100%}
-
-La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre, tambien aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). 
+La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre. Ademas, aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). Cabe destacar, que casi todos lo sitios de BCI tienen valores altos de equidad (ver figura \ref{fig:grafico_niveles_equidad}). 
 
 
 ![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad_actualizado.png){width=100%}
-
-Sitios que tienen mayores valores de equidad (azul y verde)... (ver figura \ref{fig:grafico_niveles_equidad}). 
 
 
 
 ![Grafico dque presenta los valores de equidad por sitos \label{fig:grafico_niveles_equidad}](grafico_niveles_equidad.png)
 
-Curva de rarefaccion de los sitios, teniendo en cuenta la riqueza y la abundancia...(ver figura \ref{fig:Curva_rarefaccion}). analizar Analisis de diversidad 1
-
+La Curva de rarefaccion de los sitios, muestra como va aumentando la cantidad de individuos y de especies de los cuadrantes (ver figura \ref{fig:Curva_rarefaccion}), donde la mayor concentracion de individuos esta entre los 20 a 50 individuos y la abundancia maxima es de 70 individuos.
 ![Curva de rarefaccion de los sitios \label{fig:Curva_rarefaccion}](Curva_rarefaccion.png)
 
 asymptotic diversity estimates along with related statistics.
