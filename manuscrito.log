@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  6 DEC 2021 01:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.17)  7 DEC 2021 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,175 +835,172 @@ n input line 512.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.526 
+l.524 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.526 
+l.524 
        <./mapas_variables_ambientales_numericas.png (PNG copy)> <./mapas_variab
 les_ambientales_nominales_tmap.png (PNG copy)>]
-<medicion_asociacion_jaccard.png, id=178, 494.59781pt x 324.46219pt>
+<medicion_asociacion_jaccard.png, id=177, 494.59781pt x 324.46219pt>
 File: medicion_asociacion_jaccard.png Graphic file (type png)
 <use medicion_asociacion_jaccard.png>
 Package pdftex.def Info: medicion_asociacion_jaccard.png  used on input line 52
-9.
+7.
 (pdftex.def)             Requested size: 469.75204pt x 308.16306pt.
 File: medicion_asociacion_jaccard.png Graphic file (type png)
 <use medicion_asociacion_jaccard.png>
 Package pdftex.def Info: medicion_asociacion_jaccard.png  used on input line 53
-7.
+5.
 (pdftex.def)             Requested size: 469.75204pt x 308.16306pt.
 [11pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.542 
+l.540 
        <./medicion_asociacion_jaccard.png (PNG copy)>]
 <actualizacion2_grupos_upgma.png, id=186, 749.80125pt x 344.03531pt>
 File: actualizacion2_grupos_upgma.png Graphic file (type png)
 <use actualizacion2_grupos_upgma.png>
-Package pdftex.def Info: actualizacion2_grupos_upgma.png  used on input line 54
-5.
+Package pdftex.def Info: actualizacion2_grupos_upgma.png  used on input line 56
+2.
 (pdftex.def)             Requested size: 469.7573pt x 215.54124pt.
-<mapa_upgma_k2.png, id=188, 995.72pt x 762.85pt>
-File: mapa_upgma_k2.png Graphic file (type png)
-<use mapa_upgma_k2.png>
-Package pdftex.def Info: mapa_upgma_k2.png  used on input line 555.
-(pdftex.def)             Requested size: 469.7661pt x 359.90144pt.
 [12pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.558 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.13}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.558 \end{figure}
-                   <./actualizacion2_grupos_upgma.png (PNG copy)>]
-<correlacion_pearson.png, id=194, 437.38406pt x 344.03531pt>
-File: correlacion_pearson.png Graphic file (type png)
-<use correlacion_pearson.png>
-Package pdftex.def Info: correlacion_pearson.png  used on input line 582.
-(pdftex.def)             Requested size: 437.38298pt x 344.03447pt.
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+l.566 
+      ]
+<mapa_upgma_k2.png, id=193, 995.72pt x 762.85pt>
+File: mapa_upgma_k2.png Graphic file (type png)
+<use mapa_upgma_k2.png>
+Package pdftex.def Info: mapa_upgma_k2.png  used on input line 569.
+(pdftex.def)             Requested size: 469.7661pt x 359.90144pt.
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.589 
-       <./mapa_upgma_k2.png>]
-<correlacion_diversidad_equidad_actualizado.png, id=204, 590.205pt x 344.03531p
+l.573 
+       <./actualizacion2_grupos_upgma.png (PNG copy)>]
+<correlacion_diversidad_equidad_actualizado.png, id=203, 590.205pt x 344.03531p
 t>
 File: correlacion_diversidad_equidad_actualizado.png Graphic file (type png)
 <use correlacion_diversidad_equidad_actualizado.png>
 Package pdftex.def Info: correlacion_diversidad_equidad_actualizado.png  used o
-n input line 596.
+n input line 592.
 (pdftex.def)             Requested size: 469.76009pt x 273.827pt.
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.600 
-       <./correlacion_pearson.png (PNG copy)>]
+l.596 
+       <./mapa_upgma_k2.png>]
 <grafico_niveles_equidad.png, id=211, 469.00218pt x 227.34938pt>
 File: grafico_niveles_equidad.png Graphic file (type png)
 <use grafico_niveles_equidad.png>
-Package pdftex.def Info: grafico_niveles_equidad.png  used on input line 606.
+Package pdftex.def Info: grafico_niveles_equidad.png  used on input line 599.
 (pdftex.def)             Requested size: 469.00104pt x 227.34882pt.
-<Curva_rarefaccion.png, id=213, 469.00218pt x 255.95625pt>
+<Curva_rarefaccion.png, id=212, 469.00218pt x 255.95625pt>
 File: Curva_rarefaccion.png Graphic file (type png)
 <use Curva_rarefaccion.png>
-Package pdftex.def Info: Curva_rarefaccion.png  used on input line 617.
+Package pdftex.def Info: Curva_rarefaccion.png  used on input line 606.
 (pdftex.def)             Requested size: 469.00104pt x 255.95561pt.
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.620 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.17}) has been already used, duplicate ignored
+l.610 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.620 \end{figure}
-                   <./correlacion_diversidad_equidad_actualizado.png (PNG copy)
-> <./grafico_niveles_equidad.png (PNG copy)>]
-<acumulacion_especies_individuos.png, id=220, 469.00218pt x 255.95625pt>
+l.610 
+       <./correlacion_diversidad_equidad_actualizado.png (PNG copy)> <./grafico
+_niveles_equidad.png (PNG copy)>]
+<acumulacion_especies_individuos.png, id=217, 469.00218pt x 255.95625pt>
 File: acumulacion_especies_individuos.png Graphic file (type png)
 <use acumulacion_especies_individuos.png>
 Package pdftex.def Info: acumulacion_especies_individuos.png  used on input lin
-e 632.
+e 613.
 (pdftex.def)             Requested size: 469.00104pt x 255.95561pt.
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.636 
-       <./Curva_rarefaccion.png (PNG copy)>]
-Overfull \hbox (5.49197pt too wide) in paragraph at lines 637--641
-\T1/ppl/m/n/10.95 Chrys-o-phyl-lum ar-gen-teum Chrys-o-phyl-lum cainito Poute-r
-ia stip-i-tata 0.2504234 0.3147978 0.2658814 
- []
+l.627 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+18}) has been already used, duplicate ignored
 
-<env_suelo_pca.png, id=228, 397.485pt x 255.95625pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.627 
+       <./Curva_rarefaccion.png (PNG copy)> <./acumulacion_especies_individuos.
+png (PNG copy)>]
+<env_suelo_pca.png, id=227, 397.485pt x 255.95625pt>
 File: env_suelo_pca.png Graphic file (type png)
 <use env_suelo_pca.png>
-Package pdftex.def Info: env_suelo_pca.png  used on input line 659.
+Package pdftex.def Info: env_suelo_pca.png  used on input line 646.
 (pdftex.def)             Requested size: 397.48402pt x 255.95561pt.
+<Biplot_PCA_escalamiento_actualizado.png, id=228, 953.06062pt x 344.03531pt>
+File: Biplot_PCA_escalamiento_actualizado.png Graphic file (type png)
+<use Biplot_PCA_escalamiento_actualizado.png>
+Package pdftex.def Info: Biplot_PCA_escalamiento_actualizado.png  used on input
+ line 653.
+(pdftex.def)             Requested size: 469.76688pt x 169.57619pt.
 [17pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.663 
-       <./acumulacion_especies_individuos.png (PNG copy)>]
-<Biplot_PCA_escalamiento_actualizado.png, id=235, 953.06062pt x 344.03531pt>
-File: Biplot_PCA_escalamiento_actualizado.png Graphic file (type png)
-<use Biplot_PCA_escalamiento_actualizado.png>
-Package pdftex.def Info: Biplot_PCA_escalamiento_actualizado.png  used on input
- line 672.
-(pdftex.def)             Requested size: 469.76688pt x 169.57619pt.
-<PCA_comunidad_actualizado.png, id=237, 800.9925pt x 344.03531pt>
+l.657 
+       <./env_suelo_pca.png (PNG copy)>]
+<PCA_comunidad_actualizado.png, id=236, 800.9925pt x 344.03531pt>
 File: PCA_comunidad_actualizado.png Graphic file (type png)
 <use PCA_comunidad_actualizado.png>
-Package pdftex.def Info: PCA_comunidad_actualizado.png  used on input line 687.
+Package pdftex.def Info: PCA_comunidad_actualizado.png  used on input line 667.
 
 (pdftex.def)             Requested size: 469.75816pt x 201.76642pt.
+<analisis_de_correspondencia_actualizado.png, id=239, 777.65532pt x 344.03531pt
+>
+File: analisis_de_correspondencia_actualizado.png Graphic file (type png)
+<use analisis_de_correspondencia_actualizado.png>
+Package pdftex.def Info: analisis_de_correspondencia_actualizado.png  used on i
+nput line 689.
+(pdftex.def)             Requested size: 469.76503pt x 207.8244pt.
 [18pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.691 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-21}) has been already used, duplicate ignored
+l.693 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.691 
-       <./env_suelo_pca.png (PNG copy)> <./Biplot_PCA_escalamiento_actualizado.
-png (PNG copy)>]
-<analisis_de_correspondencia_actualizado.png, id=245, 777.65532pt x 344.03531pt
->
-File: analisis_de_correspondencia_actualizado.png Graphic file (type png)
-<use analisis_de_correspondencia_actualizado.png>
-Package pdftex.def Info: analisis_de_correspondencia_actualizado.png  used on i
-nput line 698.
-(pdftex.def)             Requested size: 469.76503pt x 207.8244pt.
+l.693 \end{figure}
+                   <./Biplot_PCA_escalamiento_actualizado.png (PNG copy)> <./PC
+A_comunidad_actualizado.png (PNG copy)>]
 <Promedios_ponderados.png, id=247, 846.16125pt x 344.03531pt>
 File: Promedios_ponderados.png Graphic file (type png)
 <use Promedios_ponderados.png>
-Package pdftex.def Info: Promedios_ponderados.png  used on input line 708.
+Package pdftex.def Info: Promedios_ponderados.png  used on input line 699.
 (pdftex.def)             Requested size: 469.75417pt x 190.99435pt.
+<especies_ecologia_espacial.png, id=249, 783.67781pt x 344.03531pt>
+File: especies_ecologia_espacial.png Graphic file (type png)
+<use especies_ecologia_espacial.png>
+Package pdftex.def Info: especies_ecologia_espacial.png  used on input line 708
+.
+(pdftex.def)             Requested size: 469.7559pt x 206.2233pt.
 [19pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
 ) has been already used, duplicate ignored
 
@@ -1016,86 +1013,71 @@ l.712
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.712 
-       <./PCA_comunidad_actualizado.png (PNG copy)> <./analisis_de_corresponden
-cia_actualizado.png (PNG copy)>]
-<especies_ecologia_espacial.png, id=256, 783.67781pt x 344.03531pt>
-File: especies_ecologia_espacial.png Graphic file (type png)
-<use especies_ecologia_espacial.png>
-Package pdftex.def Info: especies_ecologia_espacial.png  used on input line 717
-.
-(pdftex.def)             Requested size: 469.7559pt x 206.2233pt.
+       <./analisis_de_correspondencia_actualizado.png (PNG copy)> <./Promedios_
+ponderados.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 731.
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.735 \section*{Referencias}
-                            \label{referencias}pdfTeX warning (ext4): destinati
-on with the same identifier (name{figure.25}) has been already used, duplicate 
-ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.735 \section*{Referencias}
-                            \label{referencias} <./Promedios_ponderados.png (PN
-G copy)> <./especies_ecologia_espacial.png>]
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 742.
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 722.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 733.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 742
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 733
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 742
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 733
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 742
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 733
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 742
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 733
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-Overfull \hbox (35.64655pt too wide) in paragraph at lines 779--782
+Overfull \hbox (35.64655pt too wide) in paragraph at lines 770--773
 \T1/ppl/m/n/10.95 dices and sta-tis-ti-cal in-fer-ence. In \T1/ppl/m/it/10.95 E
 col-ogy\T1/ppl/m/n/10.95 . Re-trieved from [][]$http : / / sites . google . com
  / site / miqueldecaceres/$[][] 
  []
 
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.24}
+) has been already used, duplicate ignored
 
-Overfull \hbox (23.24803pt too wide) in paragraph at lines 810--814
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.773 
+       <./especies_ecologia_espacial.png>]
+Overfull \hbox (23.24803pt too wide) in paragraph at lines 801--805
 []\T1/ppl/m/n/10.95 Martínez-Sovero, G., Iglesias-Osores, S., Muñoz-Chavarry, P
 ., Seminario-Cunya, A., Alva-Mendoza,
  []
 
-[21] [22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 870.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 870.
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 861.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 861.
 (./manuscrito.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 870.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 870.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 861.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 861.
 Package rerunfilecheck Info: File `manuscrito.out' has not changed.
 (rerunfilecheck)             Checksum: 5AF698229BDFD8443164C21D70E657AE;2624.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 870.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 861.
  ) 
 Here is how much of TeX's memory you used:
- 10494 strings out of 492982
- 149076 string characters out of 6134896
- 223970 words of memory out of 5000000
- 13840 multiletter control sequences out of 15000+600000
+ 10487 strings out of 492982
+ 148920 string characters out of 6134896
+ 222671 words of memory out of 5000000
+ 13835 multiletter control sequences out of 15000+600000
  24209 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,6n,34p,507b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1105,10 +1087,10 @@ e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
 fb>
-Output written on manuscrito.pdf (22 pages, 3188347 bytes).
+Output written on manuscrito.pdf (21 pages, 3101986 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 281 compressed objects within 3 object streams
- 90 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

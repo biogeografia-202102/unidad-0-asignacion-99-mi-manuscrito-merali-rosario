@@ -171,8 +171,7 @@ Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma resultar
 ![Mapa en el que se presenta la distribucion de sitios en los grupos formulados por enlace upgma\label{fig:mapa_upgma_k2}](mapa_upgma_k2.png)
 
 
-La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro, nitrógeno y cobre. Ademas, aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). Cabe destacar, que casi todos lo sitios de BCI tienen valores altos de equidad (ver figura \ref{fig:grafico_niveles_equidad}). 
-
+La riqueza de la familia Sapotaceae aumenta en función del contenido de hidrogeno, nitrógeno y cobre. Ademas, aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). Cabe destacar, que casi todos lo sitios de BCI tienen valores altos de equidad (ver figura \ref{fig:grafico_niveles_equidad}). La Curva de rarefaccion de los sitios, muestra como va aumentando la cantidad de individuos y de especies de los cuadrantes (ver figura \ref{fig:Curva_rarefaccion}), donde la mayor concentracion de individuos está entre los 20 a 50 individuos y la abundancia maxima es de 70 individuos. Los valores de los indices de diversidad alfa fueron: Species Richness  0.217, Shannon diversity 0.045 y Simpson diversity  0.038, lo cual sugiere que la familia Sapotaceae no presenta mucha diversidad en BCI. Se estima que la riqueza seguiria constante o no aumentaria significativamente aunque se hiciera mayor esfuerzo de muestreo (ver figura\ref{fig:acumulacion_especies_individuos}). 
 
 ![Correlacion entre diversidad/equidad y algunas de las variables ambientales \label{fig:correlacion_diversidad_equidad}](correlacion_diversidad_equidad_actualizado.png){width=100%}
 
@@ -180,63 +179,33 @@ La riqueza de la familia Sapotaceae aumenta en función del contenido de hierro,
 
 ![Grafico dque presenta los valores de equidad por sitos \label{fig:grafico_niveles_equidad}](grafico_niveles_equidad.png)
 
-La Curva de rarefaccion de los sitios, muestra como va aumentando la cantidad de individuos y de especies de los cuadrantes (ver figura \ref{fig:Curva_rarefaccion}), donde la mayor concentracion de individuos esta entre los 20 a 50 individuos y la abundancia maxima es de 70 individuos.
+
+
+
 ![Curva de rarefaccion de los sitios \label{fig:Curva_rarefaccion}](Curva_rarefaccion.png)
 
-asymptotic diversity estimates along with related statistics.
-                  Observed Estimator Est_s.e. 95% Lower 95% Upper
-Species Richness     5.000     5.000    0.217     5.000     5.481
-Shannon diversity    2.786     2.789    0.045     2.786     2.876
-Simpson diversity    2.403     2.404    0.038     2.403     2.478
-
-
-
-
-  Acumulacion de especies en funcion de numeros de individuos...(ver figura \ref{fig:acumulacion_especies_individuos}).
   
   
   
   ![Grafico de acumulacion de especies en funcion de numeros de individuos \label{fig:acumulacion_especies_individuos}](acumulacion_especies_individuos.png)
-
-
-Valores de diversidad beta por cada una de las especies y cuales son su contribucion (comparar cueles son las especies que contribuyen mas a la diveridad beta)
-especies_contribuyen_betadiv
-Chrysophyllum argenteum   Chrysophyllum cainito      Pouteria stipitata 
-              0.2504234               0.3147978               0.2658814 
-
-$sitios_contribuyen_betadiv
-[1] "9"  "40"
-
-Estos sitios presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (habitat, y variables numericas...)(ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales}).
-
-Componentes príncipales de la varianza en las variables de suelo y geomorfología en
-BCI.En estos gráficos se incluye el comportamiento de la varianza explicada, predecido por el
-modelo de bara quebrada, representado por la línea roja formando la curva. (La escala denominada “Inertia” representa la suma de los cuadrados de toda la varianza) (ver figura \ref{fig:env_suelo_pca}).
   
+  Las especies que contribuyen de manera significativa a la diversidad beta fueron: Chrysophyllum argenteum (0.2504234), Chrysophyllum cainito (0.3147978) y Pouteria stipitata (0.2658814), de las cuales la que mas contribuyó a la diversidad beta fué Chrysophyllum cainito. No obstante, los sitios que contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales}).
+
+El grafico \ref{fig:env_suelo_pca} incluye el comportamiento de los componentes principales de la varianza en las variables suelo y geomorfologia en BCI, predecido por el modelo de barra quebrada, representado por la línea roja formando la curva (La escala denominada “Inertia” representa la suma de los cuadrados de toda la varianza). En el diagrama rotulado como escalamiento 1 de la figura \ref{fig:Biplot_PCA_escalamiento}, se observan tres grupos de cuadrantes diferenciados entre sí. Un grupo de sitios con un alto grado de acidez y contenido en aluminio, otro grupo caracterizado por la presencia de elementos metálicos, y un tercero, con una
+cantidad de fósforo, nitrógeno y valor de pH mayor. Las variables nitrógeno, fósforo y pH aportan la mayor parte de la varianza explicada. La relación entre las variables se encuentra debidamente representada en el recuadro del escalamiento 2, por medio de los ángulos que forman sus vectores (ver figura \ref{fig:Biplot_PCA_escalamiento}). 
   
   
   ![grafico de los componentes principales de la varianza en las variables suelo y geomorfologia en BCI \label{fig:env_suelo_pca}](env_suelo_pca.png)
   
-  
-Se observa que las variables nitrógeno, fósforo y pH aportan la mayor parte de la varianza explicada. La relación entre las variables se encuentra debidamente representada en el recuadro del escalamiento 2, por medio delos ángulos que forman sus vectores (ver figura \ref{fig:Biplot_PCA_escalamiento}).
-  
-  
-  
   ![Biplots generados en el PCA de las viariables de suelo \label{fig:Biplot_PCA_escalamiento}](Biplot_PCA_escalamiento_actualizado.png){width=100%}
 
-El escalamiento 1, muestra muchos de los cuadrantes dispuestos alrededor del origen formado por los ejes, lo que indica una contribución a la varianza relativamente
-equitativa por parte de las especies. Sin embargo, aparecen también unos cuantos cuadrantes con valores atípicos y más alejados. Se nota como las especies (mencionar especies) presentan una contribución desproporcionada a la varianza total, en comparación
-con el resto de las especies (ver figura \ref{fig:PCA_comunidad}).
-  
-  
+Los resultados del PCA de los datos de la matriz de comunidad se encuentran resumidos en los diagramas de la figura \ref{fig:PCA_comunidad}. El escalamiento 1, muestra muchos de los cuadrantes dispuestos alrededor del origen formado por los ejes, lo que indica una contribución a la varianza relativamente equitativa por parte de las especies.
   
   ![Biplots generados en el PCA de las viariables de suelo \label{fig:PCA_comunidad}](PCA_comunidad_actualizado.png){width=100%}
 
 
-
-Biplot del análisis de correspondencia de los datos de abundancia de las especies de
-Sapotaceae (ver figura \ref{fig:Analisis_de_correspondencia}).
-  
+El escalamiento 2 de la figura \ref{fig:Analisis_de_correspondencia} en el análisis de correspondencia mostró que las especies Pouteria reticulata, Chrysophyllum argenteum y Chrysophyllum cainito se encuentran asociadas. Estas especies, además, tienen los valores mas altos de abundancia dentro de la comunidad (1084, 711 y 171 individuos, respectivamente). Las especies restantes tienen una abundancia reducida, y en consecuencia, aparecen cercanas a los pocos cuadrantes en los que se encuentran representadas. La disparidad en la incidencia de las especies se
+refleja en su disposición en el diagrama. Sin embargo, estos resultados no coinciden del todo con los arrojados por el PCA de la matriz de distancias.
   
   
   ![Biplot del analisis de correspondencia de los datos de abundancia de las especies de Sapotaceae \label{fig:Analisis_de_correspondencia}](analisis_de_correspondencia_actualizado.png){width=100%}
@@ -248,11 +217,13 @@ Sapotaceae (ver figura \ref{fig:Analisis_de_correspondencia}).
   
   ![PCoA con promedios ponderados de especies \label{fig:PCoA _promedios_especies}](Promedios_ponderados.png){width=100%}
   
-(ver figura \ref{fig:PCoA _promedios_especies}).
+
   
   
   
-  ![Abundancia de especies (matriz de comuniddad transformada) \label{fig:PCoA _promedios_especies}](especies_ecologia_espacial.png){width=100%}
+  
+  
+  
   
 # Discusión
 
