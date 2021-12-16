@@ -51,7 +51,7 @@ La diversidad y estructura de los bosques miden los recursos y la abundancia en 
 
 La  Isla  Barro  Colorado  es  una  reserva  natural  ubicada  en  el lago  Gatún  del  Canal  de Panamá. Debido a su capacidad de investigación, es una de las regiones tropicales más conocidas en materia de biología y ecología tropical [@leigh1990barro]. La isla exhibe características importantes, tres de las cuales son la estabilidad ambiental, su ubicación geográfica (en un área de importancia internacional) y la capacidad para investigar grupos específicos de organismos [@rodriguez2020scolytinae]. Sin  embargo, no se han hecho estudios completos de la familia Sapotaceae, donde se estudie los diferentes analisis de ecologia numerica. 
 
-El objetivo de este trabajo es determinar la asociacion, composicion floristica y distribucion de la familia Sapotaceae en la parcela permanente de 50h de la isla Barro Colorado. Ademas, analizar la organizacion de las especies en los cuadros de 1 hectárea e identificar si existe algun patron con alguna variable ambiental, asi como tambien, explicar si hay especies indicadoras o con preferencia por determinadas condiciones ambientales. Por otra parte, evaluar si la familia sapotaceae esta suficientemente representada segun los análisis de estimación de riqueza, determinar cuales son las variables ambientales que presentan asociacion con la diversidad alpha y mostrar cuales son las especies que contribuyen a la diversidad beta. Por ultimo, pero no menos importante, examinar en un espacio bidimensional las tendencias de ordenacion de las especies y determinar si las especies presentan patron aglomerado. 
+El objetivo de este trabajo es determinar la asociacion, composicion floristica y distribucion de la familia Sapotaceae en la parcela permanente de 50h de la isla Barro Colorado. Ademas, analizar la organizacion de las especies en los cuadros de 1 hectárea e identificar si existe algun patron con alguna variable ambiental, asi como tambien, explicar si hay especies indicadoras o con preferencia por determinadas condiciones ambientales. Por otra parte, evaluar si la familia sapotaceae esta suficientemente representada segun los análisis de estimación de riqueza, determinar cuales son las variables ambientales que presentan asociacion con la diversidad alpha y mostrar cuales son las especies que contribuyen a la diversidad beta. Por ultimo, pero no menos importante, examinar la autocorrelación espacial de las especies. 
 
 
 # Metodología
@@ -63,11 +63,7 @@ El objetivo de este trabajo es determinar la asociacion, composicion floristica 
 La isla de Barro Colorado es una colina de 1,500 hectáreas ubicada a 137 msnm en el lago Gatún. La parte superior de la isla es ancha y plana, y se asienta sobre un lecho de roca de basalto, de la cual irradian colinas empinadas y valles tallados en rocas sedimentarias que contienen gran cantidad de restos volcánicos. El suelo es arcilloso y la profundidad varía de 50 cm a un metro. El clima es típico de las areas tropicales [@perez2005metodologia;@windsorestructura]. Su vegetación está formada por bosques semideciduos de tierras bajas, y se han registrado más de 1,300 especies de plantas vasculares [@croat1978flora]. 
 
 La parcela permanente de árboles de 50 hectáreas se estableció en 1980 en el bosque húmedo tropical. El sitio es un rectángulo de 1,000 m de largo por 500 m de ancho, ubicado en la meseta central de la isla. Está dividido en 1,250 cuadrantes de 20x20 m, en el cual se han contabilizado todos
-los arboles con más de 10 mm de diámetro a la altura del pecho cada cinco años desde 1985 [@perez2005metodologia;@condit2012thirty;@condit2017demographic] (ver figura \ref{fig:mapabarro}). 
-
-
-
-![Mapa topográfico de la parcela de cincuenta hectáreas \label{fig:mapabarro}](mapa Barro Colorado.png){width=100%}
+los arboles con más de 10 mm de diámetro a la altura del pecho cada cinco años desde 1985 [@perez2005metodologia;@condit2012thirty;@condit2017demographic]. 
 
 
 ## Maeriales y Metodos
@@ -145,6 +141,7 @@ La variables ambientales pH y pendiente media presentaron una distribucion un ta
 
 ![Distribucion de las pendientes(en grados)\label{fig:mapa_cuadros_pendiente}](mapa_cuadros_pendiente.png){width=50%}
 
+
 la abundancia de la familia sapotaceae solo presenta correlacion con la abundacia global, mientras que la riqueza tiene correlacion con la presencia de cobre y nitrogeno en el suelo, lo que sugiere, que mientras mas concentracion de cobre y nitrogeno hay, mayor será la riqueza de especies (ver figura \ref{fig:p_cor_suelo_ar}). las variables ambientales númericas y nominales presentaron un patrón diferente, ya que las variables ambientales númericas tienen una distribución heterogénea, y la distribución de las variables ambientales nominales es mas homogena, a excepción de la variable hábita, que presenta diferentes tipos de habitats o una distribución heterogénea(ver figuras \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales}). 
 
 
@@ -152,11 +149,16 @@ la abundancia de la familia sapotaceae solo presenta correlacion con la abundaci
 p_cor_suelo_ar
 ```
 
-![variables ambientales numericas\label{fig:mapas_variables_ambientales_numericas}](mapas_variables_ambientales_numericas.png){width=100%}
+![variables ambientales numericas\label{fig:mapas_variables_ambientales_numericas}](mapas_variables_ambientales_numericas_tmap.png){width=100%}
 
 ![variables ambientales nominales\label{fig:mapas_variables_ambientales_nominales}](mapas_variables_ambientales_nominales_tmap.png)
 
- El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten un 100% de sus especies, por lo que ambos sitios comparten 3 especies y no tienen especies exclusivas (ver figura \ref{fig:similaridad_jaccard}). Las variables geomorfologicas presentan asociación con la abundancia y riqueza, lo cual la figura \ref{fig:matriz_correlacion_geomorf_abun_riq_spearman}, muestra que hay mucha similaridad entre estas variables.  
+
+
+ El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten un 100% de sus especies, por lo que ambos sitios comparten 3 especies y no tienen especies exclusivas (ver figura \ref{fig:similaridad_jaccard}). Las variables geomorfologicas presentan asociación con la abundancia y riqueza, lo cual la figura \ref{fig:matriz_correlacion_geomorf_abun_riq_spearman}, muestra que hay mucha similaridad entre estas variables. Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma resultaron significativas respecto a la variable fósforo. Por otro lado, el contenido de cobre y la abundancia global promedio, es decir, la media correspondiente a todas las plantas en BCI, son significativamente diferentes entre los sitios de ambos grupos, para un nivel de significancia de a = 0.1(ver figura \ref{fig:grupos_upgma}).
+ 
+ El grupo 1 generado por enlace upgm esta conformado por 5 cuadrante y el grupo 2 por 46 cuadrantes (ver figura \ref{fig:mapa_upgma_k2}). El grupo 2 contiene los sitios con tendencia a presentar valores altos de zinc y contenido de cobre. Es probable que las especies indicadoras del grupo con un mayor contenido de cobre estén mostrando preferencia por estas condiciones ambientales.No obstante, la mayoría de componentes del suelo en BCI tienen valores bastante homogéneos, y más bien se presentan pequeños gradientes entre los cuadrantes, lo cual evita que este tipo de acercamiento sea concluyente. La especie Chrysophyllum argenteum fué la que obtuvo un valor alto de confianza al examinar su potencial como especies indicadoras del grupo 1. Para el caso del grupo 2, la especie indicadora fué _Pouteria reticulata_.
+ 
 
 ![Similaridad de Jaccard(color fucsia (magenta, rosa) significa "corta distancia=muy similares", y cian (celeste) significa "gran distancia=poco similares")\label{fig:similaridad_jaccard}](medicion_asociacion_jaccard.png)
 
@@ -164,11 +166,11 @@ p_cor_suelo_ar
 
 ![Panel de correlacion de Spearman entre los datos de la comunidad y las variables geomorfologicas\label{fig:matriz_correlacion_geomorf_abun_riq_spearman}](medicion_asociacion_jaccard.png)
 
-Las pruebas de correlación entre los grupos 1 y 2 formulados por upgma resultaron significativas respecto a la variable fósforo. Por otro lado, el contenido de cobre y la abundancia global promedio, es decir, la media correspondiente a todas las plantas en BCI, son significativamente diferentes entre los sitios de ambos grupos, para un nivel de significancia de a = 0.1(ver figura \ref{fig:grupos_upgma}). El grupo 1 generado por enlace upgm esta conformado por 5 cuadrante y el grupo 2 por 46 cuadrantes (ver figura \ref{fig:mapa_upgma_k2}). El grupo 2 contiene los sitios con tendencia a presentar valores altos de zinc y contenido de cobre. Es probable que las especies indicadoras del grupo con un mayor contenido de cobre estén mostrando preferencia por estas condiciones ambientales.No obstante, la mayoría de componentes del suelo en BCI tienen valores bastante homogéneos, y más bien se presentan pequeños gradientes entre los cuadrantes, lo cual evita que este tipo de acercamiento sea concluyente. La especie Chrysophyllum argenteum fué la que obtuvo un valor alto de confianza al examinar su potencial como especies indicadoras del grupo 1. Para el caso del grupo 2, la especie indicadora fué Pouteria reticulata.
 
 ![Diagramas de caja de las variables que tuvieron un efecto, segun las pruebas de igualdad de medias\label{fig:grupos_upgma}](actualizacion2_grupos_upgma.png){width=100%}
 
 ![Mapa en el que se presenta la distribucion de sitios en los grupos formulados por enlace upgma\label{fig:mapa_upgma_k2}](mapa_upgma_k2.png)
+
 
 
 La riqueza de la familia Sapotaceae aumenta en función del contenido de hidrogeno, nitrógeno y cobre. Ademas, aunmenta con la equidad (ver figura \ref{fig:correlacion_diversidad_equidad}). Cabe destacar, que casi todos lo sitios de BCI tienen valores altos de equidad (ver figura \ref{fig:grafico_niveles_equidad}). La Curva de rarefaccion de los sitios, muestra como va aumentando la cantidad de individuos y de especies de los cuadrantes (ver figura \ref{fig:Curva_rarefaccion}), donde la mayor concentracion de individuos está entre los 20 a 50 individuos y la abundancia maxima es de 70 individuos. Los valores de los indices de diversidad alfa fueron: Species Richness  0.217, Shannon diversity 0.045 y Simpson diversity  0.038, lo cual sugiere que la familia Sapotaceae no presenta mucha diversidad en BCI. Se estima que la riqueza seguiria constante o no aumentaria significativamente aunque se hiciera mayor esfuerzo de muestreo (ver figura\ref{fig:acumulacion_especies_individuos}). 
@@ -189,7 +191,7 @@ La riqueza de la familia Sapotaceae aumenta en función del contenido de hidroge
   
   ![Grafico de acumulacion de especies en funcion de numeros de individuos \label{fig:acumulacion_especies_individuos}](acumulacion_especies_individuos.png)
   
-  Las especies que contribuyen de manera significativa a la diversidad beta fueron: Chrysophyllum argenteum (0.2504234), Chrysophyllum cainito (0.3147978) y Pouteria stipitata (0.2658814), de las cuales la que mas contribuyó a la diversidad beta fué Chrysophyllum cainito. No obstante, los sitios que contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales}).
+  Las especies que contribuyen de manera significativa a la diversidad beta fueron: _Chrysophyllum argenteum_ (0.2504234), _Chrysophyllum cainito_ (0.3147978) y _Pouteria stipitata_ (0.2658814), de las cuales la que mas contribuyó a la diversidad beta fué _Chrysophyllum cainito_. No obstante, los sitios que contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual presentan contribucion a la diversidad beta por la incidencia de algunas variables ambientales (ver figura \ref{fig:mapas_variables_ambientales_numericas} y \ref{fig:mapas_variables_ambientales_nominales}).
 
 El grafico \ref{fig:env_suelo_pca} incluye el comportamiento de los componentes principales de la varianza en las variables suelo y geomorfologia en BCI, predecido por el modelo de barra quebrada, representado por la línea roja formando la curva (La escala denominada “Inertia” representa la suma de los cuadrados de toda la varianza). En el diagrama rotulado como escalamiento 1 de la figura \ref{fig:Biplot_PCA_escalamiento}, se observan tres grupos de cuadrantes diferenciados entre sí. Un grupo de sitios con un alto grado de acidez y contenido en aluminio, otro grupo caracterizado por la presencia de elementos metálicos, y un tercero, con una
 cantidad de fósforo, nitrógeno y valor de pH mayor. Las variables nitrógeno, fósforo y pH aportan la mayor parte de la varianza explicada. La relación entre las variables se encuentra debidamente representada en el recuadro del escalamiento 2, por medio de los ángulos que forman sus vectores (ver figura \ref{fig:Biplot_PCA_escalamiento}). 
@@ -204,21 +206,16 @@ Los resultados del PCA de los datos de la matriz de comunidad se encuentran resu
   ![Biplots generados en el PCA de las viariables de suelo \label{fig:PCA_comunidad}](PCA_comunidad_actualizado.png){width=100%}
 
 
-El escalamiento 2 de la figura \ref{fig:Analisis_de_correspondencia} en el análisis de correspondencia mostró que las especies Pouteria reticulata, Chrysophyllum argenteum y Chrysophyllum cainito se encuentran asociadas. Estas especies, además, tienen los valores mas altos de abundancia dentro de la comunidad (1084, 711 y 171 individuos, respectivamente). Las especies restantes tienen una abundancia reducida, y en consecuencia, aparecen cercanas a los pocos cuadrantes en los que se encuentran representadas. La disparidad en la incidencia de las especies se
-refleja en su disposición en el diagrama. Sin embargo, estos resultados no coinciden del todo con los arrojados por el PCA de la matriz de distancias.
+El escalamiento 2 de la figura \ref{fig:Analisis_de_correspondencia} en el análisis de correspondencia mostró que las especies Pouteria reticulata, Chrysophyllum argenteum y Chrysophyllum cainito se encuentran asociadas. Estas especies, además, tienen los valores mas altos de abundancia dentro de la comunidad (1084, 711 y 171 individuos, respectivamente). Las especies restantes tienen una abundancia reducida, y en consecuencia, aparecen cercanas a los pocos cuadrantes en los que se encuentran representadas. La disparidad en la incidencia de las especies se refleja en su disposición en el diagrama. Sin embargo, estos resultados no coinciden del todo con los arrojados por el PCA de la matriz de distancias.
   
   
   ![Biplot del analisis de correspondencia de los datos de abundancia de las especies de Sapotaceae \label{fig:Analisis_de_correspondencia}](analisis_de_correspondencia_actualizado.png){width=100%}
 
-
-(ver figura \ref{fig:PCoA _promedios_especies}).
-  
-  
-  
-  ![PCoA con promedios ponderados de especies \label{fig:PCoA _promedios_especies}](Promedios_ponderados.png){width=100%}
-  
+Los primero ordenes de _Chrysophyllum argenteum_ y _Chrysophyllum cainito_ presentan valores de autocorrelacion alta o positiva, mientras que los ordenes de las demas especies presentan mayormente valores de autocorrelacion negativa, teniendo en cuenta que el orden 5 de todas las especies presenta autocorrelacion negativa, lo que sugiere que orden 5 de las especies está autocorrelacionado espacialmente negativo (Ver figura \ref{fig:Abundancia_matriz}. 
 
   
+
+  ![Autocorrelación espacial de las especies \label{fig:Abundancia_matriz}](Abundancia_matriz.png){width=100%}
   
   
   
@@ -235,6 +232,7 @@ refleja en su disposición en el diagrama. Sin embargo, estos resultados no coin
 
 # *Script* reproducible
 
-\ldots
+
+
 
 # Referencias
