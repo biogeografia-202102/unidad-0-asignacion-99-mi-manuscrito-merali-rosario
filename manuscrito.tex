@@ -50,7 +50,7 @@
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 
-\title{Asociacion y composicion floristica de la familia Sapotaceae en la
+\title{Asociación y composición florística de la familia Sapotaceae en la
 parcela permanente de 50h, Isla Barro Colorado  }
 
 
@@ -104,8 +104,8 @@ de Santo Domingo (UASD)''}  }
             bookmarks=true,
             pdfauthor={Merali Rosario (Afiliación, normalmente algo tal que ``Estudiante, Universidad Autónoma
 de Santo Domingo (UASD)'')},
-             pdfkeywords = {palabra clave 1, palabra clave 2},  
-            pdftitle={Asociacion y composicion floristica de la familia Sapotaceae en la
+             pdfkeywords = {Diversidad, Sapotaceae, Riqueza, Abundancia, Asociación},  
+            pdftitle={Asociación y composición florística de la familia Sapotaceae en la
 parcela permanente de 50h, Isla Barro Colorado},
             colorlinks=true,
             citecolor=blue,
@@ -168,7 +168,7 @@ de Santo Domingo (UASD)''}
 \noindent Resumen del manuscrito
 
 
-\vskip 8.5pt \noindent \emph{Keywords}: palabra clave 1, palabra clave 2 \par
+\vskip 8.5pt \noindent \emph{Keywords}: Diversidad, Sapotaceae, Riqueza, Abundancia, Asociación \par
 
     \hbox{\vrule height .2pt width 39.14pc}
 
@@ -184,9 +184,9 @@ de Santo Domingo (UASD)''}
 
 La diversidad y estructura de los bosques miden los recursos y la
 abundancia en un área geográfica, por ejemplo, los bosques de la familia
-Sapotaceae son importantes para proporcionar alimento a las especies de
+Sapotaceae son importantes para proporcionar alimentos a las especies de
 vida silvestre (Martínez-Sovero et al., 2021). La familia Sapotaceae
-está ampliamente distribuida en la zonas tropicales (Smedmark, 2007).
+está ampliamente distribuida en las zonas tropicales (Smedmark, 2007).
 Produce madera de alta calidad, frutas tropicales y algunas especies
 producen látex, siendo una familia de plantas de importancia ecológica y
 económica (Martínez-Sovero, Iglesias-Osores, \& Villena-Velásquez,
@@ -203,14 +203,14 @@ específicos de organismos (Rodríguez-Flores \& Barrios, 2020). Sin
 embargo, no se han hecho estudios completos de la familia Sapotaceae,
 donde se estudie los diferentes analisis de ecologia numerica.
 
-El objetivo de este trabajo es determinar la asociacion, composicion
-floristica y distribucion de la familia Sapotaceae en la parcela
-permanente de 50h de la isla Barro Colorado. Ademas, analizar la
-organizacion de las especies en los cuadros de 1 hectárea e identificar
-si existe algun patron con alguna variable ambiental, asi como tambien,
+El objetivo de este trabajo es determinar la asociación, composición
+florística y distribución de la familia Sapotaceae en la parcela
+permanente de 50h de la isla Barro Colorado. Además, analizar la
+organización de las especies en los cuadros de 1 hectárea e identificar
+si existe algun patrón con alguna variable ambiental, asi como tambien,
 explicar si hay especies indicadoras o con preferencia por determinadas
 condiciones ambientales. Por otra parte, evaluar si la familia
-sapotaceae esta suficientemente representada segun los análisis de
+Sapotaceae esta suficientemente representada segun los análisis de
 estimación de riqueza, determinar cuales son las variables ambientales
 que presentan asociacion con la diversidad alpha y mostrar cuales son
 las especies que contribuyen a la diversidad beta. Por ultimo, pero no
@@ -218,7 +218,7 @@ menos importante, examinar la autocorrelación espacial de las especies.
 
 \section{Metodología}\label{metodologuxeda}
 
-\subsection{Area de Estudio}\label{area-de-estudio}
+\subsection{Área de Estudio}\label{uxe1rea-de-estudio}
 
 La isla de Barro Colorado es una colina de 1,500 hectáreas ubicada a 137
 msnm en el lago Gatún. La parte superior de la isla es ancha y plana, y
@@ -236,15 +236,23 @@ largo por 500 m de ancho, ubicado en la meseta central de la isla. Está
 dividido en 1,250 cuadrantes de 20x20 m, en el cual se han contabilizado
 todos los arboles con más de 10 mm de diámetro a la altura del pecho
 cada cinco años desde 1985 (R. A. y H. Condit Richard y Chisholm, 2012;
-R. y L. Condit Richard y P ~'e rez, 2017; Pérez et al., 2005).
+R. y L. Condit Richard y P ~'e rez, 2017; Pérez et al., 2005) (ver mapa
+\ref{fig:Mapa}).
+
+\begin{figure}
+\centering
+\includegraphics[width=0.50000\textwidth]{Mapa .png}
+\caption{Área de estudio, parcela de 50ha, Isla Barro Colorado
+\label{fig:Mapa}}
+\end{figure}
 
 \subsection{Maeriales y Metodos}\label{maeriales-y-metodos}
 
 Los datos de cada uno de los cuadrantes de una hectárea que componen
 BCI, fueron procesados en R (R Core Team, 2020), teniendo en cuenta la
 matriz ambiental y la matriz de comunidad, los cuales contienen datos de
-las variables ambientales, tales como condiciones edaficas, tipo de
-habitat, topografia del lugar, clasificacion etaria del bosque, y datos
+las variables ambientales, tales como condiciones edáficas, tipo de
+hábitat, topografía del lugar, clasificación etaria del bosque, y datos
 demográficos y geoferenciación espacial de todos los individuos
 censados. Se adaptaron scripts reproducibles recuperados de Batlle
 (2020), utilizando la colección de paquetes multifuncionales: vegan
@@ -261,7 +269,7 @@ procedimientos más detallados a continuación.
 \subsection{Medición de asociación
 (ma)}\label{mediciuxf3n-de-asociaciuxf3n-ma}
 
-Para realizar las pruebas de medicion de asociacion, se calculó la
+Para realizar las pruebas de medición de asociación, se calculó la
 distancia euclidiana entre los cuadrados considerados objetos. Para
 ello, se requierió una transformación de la matriz de comunidad mediante
 el método Hellinger, que incluye elevar al cuadrado la abundancia
@@ -288,16 +296,16 @@ Para poder comparar la relación entre especies en función de su
 abundancia, se utilizó estandarización ji-cuadrado de la matriz de
 comunidad transpuesta (Legendre \& Gallagher, 2001). Se examinó la
 ocurrencia entre especies y su distribución en BCI por el coeficiente de
-orrelación entre rangos de Spearman para medir el grado de correlación
+correlación entre rangos de Spearman, para medir el grado de correlación
 entre las variables riqueza númerica de especies y la abundancia con las
 variables ambientales geomorfológicas, y la composición química del
 suelo(Brocard et al., 2018).
 
 \subsection{Analisis de agrupamiento}\label{analisis-de-agrupamiento}
 
-El método jerarquico aglomerativo de asociación entre pares de
+El método jerárquico aglomerativo de asociación entre pares de
 cuadrantes (según la composición de especies) bajo el estándar de enlace
-completo, y el método de Ward basado en la varianza mínima, se utilizan
+completo, y el método de Ward basado en la varianza mínima, se utilizó
 como método preliminar para el análisis de agrupamiento, con el fin de
 probar su efectividad en lograr un grupo consistente de importancia
 ecológica (Brocard et al., 2018). Luego, estos generaron dendrogramas
@@ -310,20 +318,7 @@ identidad de sus componentes (Brocard et al., 2018). Las distribuciones
 se basaban en una probabilidad de 91\% o más de acierto para el método
 bootstrap y de un 95\% para boostrap multiescalar.
 
-Dado que se localizaron patrones consistentes en la composicion y numero
-de grupos entre los metodos examinados, los análisis de agruoamiento
-posteriores se basan en los que se produce por enlace completo e incluye
-dos grupos compuestos por 20 y 30 cuadrantes, respectivamente(ver figura
-\ref{fig:Dendograma}).
-
-\begin{figure}
-\centering
-\includegraphics[width=1.00000\textwidth]{Dendograma.png}
-\caption{Dendrogramas de los grupos producidos por Ward y Complete
-\label{fig:Dendograma}}
-\end{figure}
-
-Para conocer las especies distintas o asociadas a cada grupo, se utilizo
+Para conocer las especies distintas o asociadas a cada grupo, se utilizó
 el valor del indicador o índice IndVal (``Conjuntos de especies y
 especies indicadoras,'' 1997), basado en permutaciones aleatorias de los
 sitios según la presencia de especies y la abundancia de estos. De
@@ -343,35 +338,20 @@ alpha}\label{anuxe1lisis-de-diversidad-alpha}
 La diversidad alpha representa la diversidad de especies a lo largo de
 todas las subunidades locales relevantes, y por definición abarca dos
 variables importantes: (1) la riqueza de especies, y (2) la abundancia
-relativa de especies (Carmona-Galindo \& Carmona, 2013). Para calcular
-la diversidad alpha se utiliza el indice de Fisher (Fisher, Corbet, \&
-Williams, 1943), el índice de Simpson (E. H. Simpson, 1949), y el índice
-de Shannon-Wiener (Shannon, 1948). A fin de determinar la diversidad
-alpha se utilizaron métodos como la Entropia de Shannon H1, que calcula
-el grado de desorden en la muestra, el índice de concentración de
-Simpson, que calcula la probabilidad de que dos individuos seleccionados
-aleatoriamente puedan ser de la misma especie. Ademas, se empleó la
-serie de números de diversidad de Hill, la fórmula de la entropía de
-Rengi y el índice de equidad de Pielou.
-
-Para determinar la rarefaccion se comparó los índices de diversidad
-entre hábitats en base a un mismo número de individuos, donde el hábitat
-con el mayor número de individuos se submuestreo sin remplazo
-aleatoriamente y con múltiples ejecuciones para generar un índice
-promedio que se pueda comparar con el índice de otro hábitat en base a
-un mismo número de individuos. El resultado de esta técnica resulto con
-una curva rarificada de valores del índice de diversidad que disminuye
-conforme con el muestreo sin remplazo del número de
-individuos(Carmona-Galindo \& Carmona, 2013)(ver figura
-\ref{fig:Curva_rarefaccion} y
-\ref{fig:acumulacion_especies_individuos}).
+relativa de especies (Carmona-Galindo \& Carmona, 2013). Con el fin de
+determinar la diversidad alpha se utilizaron métodos como la Entropia de
+Shannon H1, que calcula el grado de desorden en la muestra, el índice de
+concentración de Simpson, que calcula la probabilidad de que dos
+individuos seleccionados aleatoriamente puedan ser de la misma especie.
+Ademas, se empleó la serie de números de diversidad de Hill, la fórmula
+de la entropía de Rengi y el índice de equidad de Pielou.
 
 \subsection{Analisis de diversidad
 beta}\label{analisis-de-diversidad-beta}
 
 La diversidad beta, de acuerdo con (Whittaker, 1960), se define como el
 diferencial entre la diversidad de un hábitat y la diversidad total de
-un paisaje de hábitats. Teniendo en vuenta lo anterior, se utilizó el
+un paisaje de hábitats. Teniendo en cuenta lo anterior, se utilizó el
 metodo hellinger para determinar cuales son las especies que contribuyen
 a la diversidad beta, es decir, las especies que no se encuentran
 compartidas entre los cuadrantes.
@@ -401,7 +381,7 @@ de distancia para autocorrelación espacial con y sin tendencia, y el I
 de Moran con una matriz de abundancia de especies transformada sin
 tendencia, lo cual se aplica a variables ambientales para obtener los
 datos de autocorrelación, distribución de especies y variables en los
-sitios d muestreo.
+sitios de muestreo.
 
 \section{Resultados}\label{resultados}
 
@@ -411,7 +391,7 @@ la mediana de la abundancia por cuadro fue de 39 individuos. La especie
 más abundante fue \emph{Pouteria reticulata}, con 1084 individuos, y la
 menos abundante fue \emph{Pouteria fossicola} con 3 individuos. La tabla
 \ref{tab:abun_sp} y la figura \ref{fig:abun_sp_q} resume estos
-resultados. La distribucion de la riqueza númerica de especies de la
+resultados. La distribución de la riqueza númerica de especies de la
 familia Sapotaceae sigue un patrón homogeneo, lo cual los agregados de
 riqueza maxima estan distribuidos en casi todo el area (ver Figura
 \ref{fig:mapa_cuadros_riq_mi_familia}).
@@ -449,13 +429,19 @@ Sapotaceae\label{fig:mapa_cuadros_riq_mi_familia}}
 \end{figure}
 
 La variables ambientales pH y pendiente media presentaron una
-distribucion un tanto parecida a la disdtribución de la familia
-sapotaceae. Sin embargo, la distribucion del PH esta representada mas al
-oeste, mientras que la pendiente media esta distribuida en casi toda el
+distribución un tanto parecida a la disdtribución de la familia
+sapotaceae. Sin embargo, la distribución del PH esta representada mas al
+oeste, mientras que la pendiente media está distribuida en casi toda el
 area, pero con una mayor concentración en la parte sur. Lo cual, se
-podria decir, que la pendiente media presenta mas asocacion con la
+podria decir, que la pendiente media presenta mas asocación con la
 distribución de la familia sapotaceae(ver figuras
 \ref{fig:mapa_cuadros_pH} y \ref{fig:mapa_cuadros_pendiente}).
+
+La abundancia de la familia sapotaceae solo presenta correlación con la
+abundacia global, mientras que la riqueza tiene correlación con la
+presencia de cobre y nitrógeno en el suelo, lo que sugiere, que mientras
+mas concentracion de cobre y nitrogeno hay, mayor será la riqueza de
+especies (ver figura \ref{fig:p_cor_suelo_ar}).
 
 \begin{figure}
 \centering
@@ -470,19 +456,6 @@ distribución de la familia sapotaceae(ver figuras
 grados)\label{fig:mapa_cuadros_pendiente}}
 \end{figure}
 
-la abundancia de la familia sapotaceae solo presenta correlacion con la
-abundacia global, mientras que la riqueza tiene correlacion con la
-presencia de cobre y nitrogeno en el suelo, lo que sugiere, que mientras
-mas concentracion de cobre y nitrogeno hay, mayor será la riqueza de
-especies (ver figura \ref{fig:p_cor_suelo_ar}). las variables
-ambientales númericas y nominales presentaron un patrón diferente, ya
-que las variables ambientales númericas tienen una distribución
-heterogénea, y la distribución de las variables ambientales nominales es
-mas homogena, a excepción de la variable hábita, que presenta diferentes
-tipos de habitats o una distribución heterogénea(ver figuras
-\ref{fig:mapas_variables_ambientales_numericas} y
-\ref{fig:mapas_variables_ambientales_nominales}).
-
 \begin{figure}
 \centering
 \includegraphics{manuscrito_files/figure-latex/unnamed-chunk-4-1.pdf}
@@ -490,24 +463,10 @@ tipos de habitats o una distribución heterogénea(ver figuras
 suelo}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics[width=1.00000\textwidth]{mapas_variables_ambientales_numericas_tmap.png}
-\caption{variables ambientales
-numericas\label{fig:mapas_variables_ambientales_numericas}}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics{mapas_variables_ambientales_nominales_tmap.png}
-\caption{variables ambientales
-nominales\label{fig:mapas_variables_ambientales_nominales}}
-\end{figure}
-
 El indice de similaridad de Jaccard muestra que el sitio 1 y 2 comparten
 un 100\% de sus especies, por lo que ambos sitios comparten 3 especies y
 no tienen especies exclusivas (ver figura
-\ref{fig:similaridad_jaccard}). Las variables geomorfologicas presentan
+\ref{fig:similaridad_jaccard}). Las variables geomorfológicas presentan
 asociación con la abundancia y riqueza, lo cual la figura
 \ref{fig:matriz_correlacion_geomorf_abun_riq_spearman}, muestra que hay
 mucha similaridad entre estas variables. Las pruebas de correlación
@@ -523,13 +482,13 @@ grupo 2 por 46 cuadrantes (ver figura \ref{fig:mapa_upgma_k2}). El grupo
 2 contiene los sitios con tendencia a presentar valores altos de zinc y
 contenido de cobre. Es probable que las especies indicadoras del grupo
 con un mayor contenido de cobre estén mostrando preferencia por estas
-condiciones ambientales.No obstante, la mayoría de componentes del suelo
-en BCI tienen valores bastante homogéneos, y más bien se presentan
+condiciones ambientales. No obstante, la mayoría de componentes del
+suelo en BCI tienen valores bastante homogéneos, y más bien se presentan
 pequeños gradientes entre los cuadrantes, lo cual evita que este tipo de
-acercamiento sea concluyente. La especie Chrysophyllum argenteum fué la
-que obtuvo un valor alto de confianza al examinar su potencial como
-especies indicadoras del grupo 1. Para el caso del grupo 2, la especie
-indicadora fué \emph{Pouteria reticulata}.
+acercamiento sea concluyente. La especie \emph{Chrysophyllum argenteum}
+fué la que obtuvo un valor alto de confianza al examinar su potencial
+como especies indicadoras del grupo 1. Para el caso del grupo 2, la
+especie indicadora fué \emph{Pouteria reticulata}.
 
 \begin{figure}
 \centering
@@ -568,14 +527,10 @@ casi todos lo sitios de BCI tienen valores altos de equidad (ver figura
 \ref{fig:grafico_niveles_equidad}). La Curva de rarefaccion de los
 sitios, muestra como va aumentando la cantidad de individuos y de
 especies de los cuadrantes (ver figura \ref{fig:Curva_rarefaccion}),
-donde la mayor concentracion de individuos está entre los 20 a 50
+donde la mayor concentración de individuos está entre los 20 a 50
 individuos y la abundancia maxima es de 70 individuos. Los valores de
 los indices de diversidad alfa fueron: Species Richness 0.217, Shannon
-diversity 0.045 y Simpson diversity 0.038, lo cual sugiere que la
-familia Sapotaceae no presenta mucha diversidad en BCI. Se estima que la
-riqueza seguiria constante o no aumentaria significativamente aunque se
-hiciera mayor esfuerzo de muestreo (ver
-figura\ref{fig:acumulacion_especies_individuos}).
+diversity 0.045 y Simpson diversity 0.038.
 
 \begin{figure}
 \centering
@@ -598,23 +553,14 @@ ambientales \label{fig:correlacion_diversidad_equidad}}
 \label{fig:Curva_rarefaccion}}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics{acumulacion_especies_individuos.png}
-\caption{Grafico de acumulacion de especies en funcion de numeros de
-individuos \label{fig:acumulacion_especies_individuos}}
-\end{figure}
-
 Las especies que contribuyen de manera significativa a la diversidad
 beta fueron: \emph{Chrysophyllum argenteum} (0.2504234),
 \emph{Chrysophyllum cainito} (0.3147978) y \emph{Pouteria stipitata}
 (0.2658814), de las cuales la que mas contribuyó a la diversidad beta
 fué \emph{Chrysophyllum cainito}. No obstante, los sitios que
 contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual
-presentan contribucion a la diversidad beta por la incidencia de algunas
-variables ambientales (ver figura
-\ref{fig:mapas_variables_ambientales_numericas} y
-\ref{fig:mapas_variables_ambientales_nominales}).
+presentan contribución a la diversidad beta por la incidencia de algunas
+variables ambientales.
 
 El grafico \ref{fig:env_suelo_pca} incluye el comportamiento de los
 componentes principales de la varianza en las variables suelo y
@@ -630,7 +576,12 @@ nitrógeno y valor de pH mayor. Las variables nitrógeno, fósforo y pH
 aportan la mayor parte de la varianza explicada. La relación entre las
 variables se encuentra debidamente representada en el recuadro del
 escalamiento 2, por medio de los ángulos que forman sus vectores (ver
-figura \ref{fig:Biplot_PCA_escalamiento}).
+figura \ref{fig:Biplot_PCA_escalamiento}). Los resultados del PCA de los
+datos de la matriz de comunidad se encuentran resumidos en los diagramas
+de la figura \ref{fig:PCA_comunidad}. El escalamiento 1, muestra muchos
+de los cuadrantes dispuestos alrededor del origen formado por los ejes,
+lo que indica una contribución a la varianza relativamente equitativa
+por parte de las especies.
 
 \begin{figure}
 \centering
@@ -646,13 +597,6 @@ variables suelo y geomorfologia en BCI \label{fig:env_suelo_pca}}
 \label{fig:Biplot_PCA_escalamiento}}
 \end{figure}
 
-Los resultados del PCA de los datos de la matriz de comunidad se
-encuentran resumidos en los diagramas de la figura
-\ref{fig:PCA_comunidad}. El escalamiento 1, muestra muchos de los
-cuadrantes dispuestos alrededor del origen formado por los ejes, lo que
-indica una contribución a la varianza relativamente equitativa por parte
-de las especies.
-
 \begin{figure}
 \centering
 \includegraphics[width=1.00000\textwidth]{PCA_comunidad_actualizado.png}
@@ -661,16 +605,20 @@ de las especies.
 \end{figure}
 
 El escalamiento 2 de la figura \ref{fig:Analisis_de_correspondencia} en
-el análisis de correspondencia mostró que las especies Pouteria
-reticulata, Chrysophyllum argenteum y Chrysophyllum cainito se
-encuentran asociadas. Estas especies, además, tienen los valores mas
-altos de abundancia dentro de la comunidad (1084, 711 y 171 individuos,
-respectivamente). Las especies restantes tienen una abundancia reducida,
-y en consecuencia, aparecen cercanas a los pocos cuadrantes en los que
-se encuentran representadas. La disparidad en la incidencia de las
-especies se refleja en su disposición en el diagrama. Sin embargo, estos
-resultados no coinciden del todo con los arrojados por el PCA de la
-matriz de distancias.
+el análisis de correspondencia mostró que las especies \emph{Pouteria
+reticulata}, \emph{Chrysophyllum argenteum} y \emph{Chrysophyllum
+cainito} se encuentran asociadas. Las especies restantes tienen una
+abundancia reducida, y en consecuencia, aparecen cercanas a los pocos
+cuadrantes en los que se encuentran representadas. La disparidad en la
+incidencia de las especies se refleja en su disposición en el diagrama.
+Sin embargo, estos resultados no coinciden del todo con los arrojados
+por el PCA de la matriz de distancias.
+
+Los primero ordenes de \emph{Chrysophyllum argenteum} y
+\emph{Chrysophyllum cainito} presentan valores de autocorrelación alta o
+positiva, mientras que los ordenes de las demas especies presentan
+mayormente valores de autocorrelación negativa (Ver figura
+\ref{fig:Abundancia_matriz}).
 
 \begin{figure}
 \centering
@@ -679,14 +627,6 @@ matriz de distancias.
 abundancia de las especies de Sapotaceae
 \label{fig:Analisis_de_correspondencia}}
 \end{figure}
-
-Los primero ordenes de \emph{Chrysophyllum argenteum} y
-\emph{Chrysophyllum cainito} presentan valores de autocorrelacion alta o
-positiva, mientras que los ordenes de las demas especies presentan
-mayormente valores de autocorrelacion negativa, teniendo en cuenta que
-el orden 5 de todas las especies presenta autocorrelacion negativa, lo
-que sugiere que orden 5 de las especies está autocorrelacionado
-espacialmente negativo (Ver figura \ref{fig:Abundancia_matriz}.
 
 \begin{figure}
 \centering
@@ -697,7 +637,55 @@ espacialmente negativo (Ver figura \ref{fig:Abundancia_matriz}.
 
 \section{Discusión}\label{discusiuxf3n}
 
+Estudios de la familia Sapotaceae también reportan que \emph{Pouteria}
+es un genero que parece siempre presentar una abundancia significativa
+de individuos (Martínez-Sovero et al. (2021)). La riqueza de la familia
+Sapotaceae aumenta en función del contenido de hidrógeno, nitrógeno y
+cobre, los cuales son algunos de los nutrientes que más se correlacionan
+con la diversidad de especies de plantas en el neotrópico (Doblado
+Amador (2011)). Ademas, la riqueza aunmenta con la equidad, por lo que
+casi todos los sitios de BCI tienen valores altos de equidad, debido a
+que las especies estan distribuidas en casi todos los cuadrantes.
+
+Los valores de los indices de diversidad alfa fueron: Species Richness
+0.217, Shannon diversity 0.045 y Simpson diversity 0.038lo, estos
+valores sugieren que la familia Sapotaceae no presenta mucha diversidad
+en BCI. Se estima que la riqueza seguiría constante o no aumentaria
+significativamente aunque se hiciera mayor esfuerzo de muestreo (ver
+figura\ref{fig:acumulacion_especies_individuos}).
+
+\begin{figure}
+\centering
+\includegraphics{acumulacion_especies_individuos.png}
+\caption{Grafico de acumulacion de especies en funcion de numeros de
+individuos \label{fig:acumulacion_especies_individuos}}
+\end{figure}
+
+Las especies que contribuyen de manera significativa a la diversidad
+beta fueron: \emph{Chrysophyllum argenteum}, \emph{Chrysophyllum
+cainito} y \emph{Pouteria stipitata}, las cuales fueron las que
+obtuvieron valores intermedios de individuos. No obstante, los sitios
+que contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual
+presentan contribución a la diversidad beta por la incidencia de algunas
+variables ambientales, tales como el ph, aluminio, boro,
+manganeso\ldots{} Las especies \emph{Pouteria reticulata},
+\emph{Chrysophyllum argenteum} y \emph{Chrysophyllum cainito} se
+encuentran asociadas, debido a que tienen los valores mas altos de
+abundancia dentro de la comunidad (1084, 711 y 171 individuos,
+respectivamente).
+
+Los primero ordenes de \emph{Chrysophyllum argenteum} y
+\emph{Chrysophyllum cainito} presentan valores de autocorrelación
+positiva, mientras que los ordenes de las demás especies presentan
+mayormente valores de autocorrelación negativa, teniendo en cuenta que
+el orden 5 de todas las especies presenta autocorrelacion negativa, lo
+que sugiere que el orden 5 de las especies está autocorrelacionado
+espacialmente negativo.
+
 \section{Agradecimientos}\label{agradecimientos}
+
+Agradezco al maestro José Ramón Martinez, por su motivación y ayuda en
+todos los aspectos para que este trabajo salga bien.
 
 \section{Información de soporte}\label{informaciuxf3n-de-soporte}
 
@@ -754,11 +742,11 @@ De Caceres, M., \& Legendre, P. (2009). Associations between species and
 groups of sites: Indices and statistical inference. In \emph{Ecology}.
 Retrieved from \url{http://sites.google.com/site/miqueldecaceres/}
 
-\hypertarget{ref-fisher1943relation}{}
-Fisher, R. A., Corbet, A. S., \& Williams, C. B. (1943). The relation
-between the number of species and the number of individuals in a random
-sample of an animal population. \emph{The Journal of Animal Ecology},
-42--58.
+\hypertarget{ref-doblado2011identificacion}{}
+Doblado Amador, L. S. (2011). Identificación y caracterización de tipos
+de bosque y su relación con variables ambientales, en un paisaje
+fragmentado al norte de honduras. \emph{Proyecto Finnfor I Y Finnfor
+II-CATIE}.
 
 \hypertarget{ref-leigh1990barro}{}
 Isla barro colorado y biología tropical. (1990). \emph{Cuatro Bosques
@@ -806,14 +794,6 @@ computing}. Retrieved from \url{https://www.R-project.org/}
 Rodríguez-Flores, W., \& Barrios, H. (2020). Scolytinae y platypodinae
 (coleoptera: Curculionidae) de la isla barro colorado, panamá.
 \emph{Scientia}, \emph{30}(1), 15--52.
-
-\hypertarget{ref-shannon1948mathematical}{}
-Shannon, C. E. (1948). Una teoría matemática de la comunicación.
-\emph{El Diario Técnico Del Sistema Bell}, \emph{27}(3), 379--423.
-
-\hypertarget{ref-simpson1949measurement}{}
-Simpson, E. H. (1949). Measurement of diversity. \emph{Nature},
-\emph{163}(4148), 688--688.
 
 \hypertarget{ref-smedmark2007boreotropical}{}
 Smedmark, A. A., Jenny EE y Anderberg. (2007). La migración
