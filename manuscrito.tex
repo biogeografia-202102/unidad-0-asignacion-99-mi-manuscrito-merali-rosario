@@ -165,21 +165,25 @@ parcela permanente de 50h, Isla Barro Colorado},
 \noindent La diversidad y estructura de los bosques miden los recursos y la
 abundancia en un área geográfica, por ejemplo, los bosques de la familia
 Sapotaceae son importantes para proporcionar alimentos a las especies de
-vida silvestre (Martínez-Sovero et al., 2021). La Isla Barro Colorado es
-una reserva natural ubicada en el lago Gatún del Canal de Panamá. Debido
-a su capacidad de investigación, es una de las regiones tropicales más
-conocidas en materia de biología y ecología tropical (``Isla barro
-colorado y biología tropical,'' 1990). El objetivo de este trabajo es
-determinar la asociación, composición florística y distribución de la
-familia Sapotaceae en la parcela permanente de 50h de la isla Barro
-Colorado. Los datos de cada uno de los cuadrantes de una hectárea que
-componen BCI, fueron procesados en R (R Core Team, 2020), teniendo en
-cuenta la matriz ambiental y la matriz de comunidad, los cuales
-contienen datos de las variables ambientales, tales como condiciones
-edáficas, tipo de hábitat, topografía del lugar, clasificación etaria
-del bosque, y datos demográficos y geoferenciación espacial de todos los
-individuos censados. Se adaptaron scripts reproducibles recuperados de
-Batlle (2020), utilizando colecciones de paquetes multifuncionales.
+vida silvestre. La Isla Barro Colorado es una reserva natural ubicada en
+el lago Gatún del Canal de Panamá. Debido a su capacidad de
+investigación, es una de las regiones tropicales más conocidas en
+materia de biología y ecología tropical. La distribución actual de la
+abundancia de especies en BCI se atribuye principalmente a los
+mecanismos que definen comunidades específicas, como la prevalencia de
+especies dominantes. Sin embargo, Las medidas para la distribución de la
+abundancia relativa se ve afectada por interacciones que aún no se han
+determinado plenamente, ni en qué grado inciden en la estructura de la
+comunidad. El objetivo de este trabajo es determinar la asociación,
+composición florística y distribución de la familia Sapotaceae en la
+parcela permanente de 50h de la isla Barro Colorado. Los datos de cada
+uno de los cuadrantes de una hectárea que componen BCI, fueron
+procesados en R, teniendo en cuenta la matriz ambiental y la matriz de
+comunidad, los cuales contienen datos de las variables ambientales,
+tales como condiciones edáficas, tipo de hábitat, topografía del lugar,
+clasificación etaria del bosque, datos demográficos y geoferenciación
+espacial de todos los individuos censados. Se adaptaron scripts
+reproducibles, utilizando colecciones de paquetes multifuncionales.
 Todos los datos fueron examinados utilizando análisis de ecología
 númerica. Se registraron un total de 5 especies y 2 géneros distribuidos
 en 2029 individuos en toda la parcela. La riqueza por cuadro fue de 4
@@ -559,8 +563,8 @@ los sitios, muestra como va aumentando la cantidad de individuos y de
 especies de los cuadrantes (ver figura \ref{fig:Curva_rarefaccion}),
 donde la mayor concentración de individuos está entre los 20 a 50
 individuos y la abundancia maxima es de 70 individuos. Los valores de
-los indices de diversidad alfa fueron: Species Richness 0.217, Shannon
-diversity 0.045 y Simpson diversity 0.038.
+los indices de diversidad alfa fueron: Riqueza de especies 0.22, Shannon
+0.05 y Simpson 0.04.
 
 \begin{figure}
 \centering
@@ -585,7 +589,7 @@ contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual
 presentan contribución a la diversidad beta por la incidencia de algunas
 variables ambientales.
 
-El grafico \ref{fig:env_suelo_pca} incluye el comportamiento de los
+El gráfico \ref{fig:env_suelo_pca} incluye el comportamiento de los
 componentes principales de la varianza en las variables suelo y
 geomorfologia en BCI, predecido por el modelo de barra quebrada,
 representado por la línea roja formando la curva (La escala denominada
@@ -661,21 +665,19 @@ abundancia de las especies de Sapotaceae
 \section{Discusión}\label{discusiuxf3n}
 
 Estudios de la familia Sapotaceae también reportan que \emph{Pouteria}
-es un genero que parece siempre presentar una cantidad significativa de
-individuos (Martínez-Sovero et al. (2021)). La riqueza de la familia
+es un género que parece siempre presentar una cantidad significativa de
+individuos (Martínez-Sovero et al., 2021). La riqueza de la familia
 Sapotaceae aumenta en función del contenido de hidrógeno, nitrógeno y
 cobre, los cuales son algunos de los nutrientes que más se correlacionan
 con la diversidad de especies de plantas en el neotrópico (Doblado
-Amador (2011)). Ademas, la riqueza aunmenta con la equidad, por lo que
-casi todos los sitios de BCI tienen valores altos de equidad, debido a
-que las especies estan distribuidas en casi todos los cuadrantes.
+Amador, 2011). Ademas, la riqueza aunmenta con la equidad, debido a que
+las especies estan distribuidas en casi todos los cuadrantes.
 
-Los valores de los indices de diversidad alfa fueron: Species Richness
-0.217, Shannon diversity 0.045 y Simpson diversity 0.038lo, estos
-valores sugieren que la familia Sapotaceae no presenta mucha diversidad
-en BCI. Se estima que la riqueza seguiría constante o no aumentaria
+Los valores de los indices de diversidad alfa fueron muy bajos, lo que
+sugiere que la familia Sapotaceae no presenta mucha diversidad en BCI.
+Se estima que la riqueza seguiría constante o no aumentaría
 significativamente aunque se hiciera mayor esfuerzo de muestreo (ver
-figura\ref{fig:acumulacion_especies_individuos}).
+figura \ref{fig:acumulacion_especies_individuos}).
 
 \begin{figure}
 \centering
@@ -688,14 +690,19 @@ Las especies que contribuyen de manera significativa a la diversidad
 beta fueron: \emph{Chrysophyllum argenteum}, \emph{Chrysophyllum
 cainito} y \emph{Pouteria stipitata}, las cuales fueron las que
 obtuvieron valores intermedios de individuos. No obstante, los sitios
-que contribuyen a la diversidad beta son los cuadrantes 9 y 40, lo cual
+que contribuyen a la diversidad beta son los cuadrantes 9 y 40, ya
 presentan contribución a la diversidad beta por la incidencia de algunas
-variables ambientales, tales como el ph, aluminio, boro,
-manganeso\ldots{} Las especies \emph{Pouteria reticulata},
-\emph{Chrysophyllum argenteum} y \emph{Chrysophyllum cainito} se
-encuentran asociadas, debido a que tienen los valores mas altos de
-abundancia dentro de la comunidad (1084, 711 y 171 individuos,
-respectivamente).
+variables ambientales, tales como PH, aluminio, boro, manganeso, etc. Lo
+anterior coincide con (Horvát et al., 2010), lo cual explica que las
+medidas para la distribución de la abundancia relativa se ve afectada
+por interacciones, que en este caso se debe a la incidencia de algunas
+variables ambientales. Además, (R. Condit et al., 2002) señala que la
+diversidad beta aumenta dependiendo la distancia que estan separadas las
+especies o los sitios donde se encuentran estas. Las especies
+\emph{Pouteria reticulata}, \emph{Chrysophyllum argenteum} y
+\emph{Chrysophyllum cainito} se encuentran asociadas, debido a que
+tienen los valores mas altos de abundancia dentro de la comunidad (1084,
+711 y 171 individuos, respectivamente).
 
 Los primero ordenes de \emph{Chrysophyllum argenteum} y
 \emph{Chrysophyllum cainito} presentan valores de autocorrelación
